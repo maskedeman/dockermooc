@@ -1,0 +1,60 @@
+Script started on 2024-05-28 10:52:47+05:45 [COMMAND="docker start portfolio && docker ps -a" TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+portfolio
+CONTAINER ID   IMAGE                             COMMAND                  CREATED        STATUS                      PORTS                                                 NAMES
+35de01ef906d   maskimux/whatami:latest           "docker-entrypoint.s…"   17 hours ago   Up 4 minutes                5173/tcp, 0.0.0.0:5000->8080/tcp, :::5000->8080/tcp   portfolio
+83528ba4baba   whatami:v1.0                      "docker-entrypoint.s…"   17 hours ago   Exited (137) 17 hours ago                                                         nifty_noyce
+b81a4de24b6d   backend-image                     "./server"               39 hours ago   Exited (137) 17 hours ago                                                         busy_hertz
+37e43701b164   frontend-image                    "docker-entrypoint.s…"   39 hours ago   Exited (0) 39 hours ago                                                           quizzical_kalam
+c56e44bdf29b   frontend-image                    "docker-entrypoint.s…"   39 hours ago   Exited (0) 39 hours ago                                                           nice_heisenberg
+22b1ca135818   frontend-image                    "docker-entrypoint.s…"   41 hours ago   Exited (0) 41 hours ago                                                           beautiful_feistel
+f9612c77cd3b   javapp                            "java -jar ./target/…"   42 hours ago   Exited (143) 19 hours ago                                                         goofy_leavitt
+2af43950f39f   web-server                        "/usr/src/app/server…"   2 days ago     Exited (2) 43 hours ago                                                           practical_haibt
+38502e18e283   web-server                        "/usr/src/app/server…"   2 days ago     Exited (2) 2 days ago                                                             keen_villani
+145222603b04   ubuntu:22.04                      "sh -c 'apt-get upda…"   2 days ago     Exited (130) 2 days ago                                                           agitated_driscoll
+0113524ef97d   9cd8af0e0635                      "./server"               3 days ago     Exited (2) 41 hours ago                                                           tender_cray
+ffd616471da7   02ec155d1d5d                      "docker-entrypoint.s…"   3 days ago     Exited (0) 3 days ago                                                             keen_driscoll
+d2908c4afd6f   29e5f67fb57c                      "./server"               3 days ago     Created                                                                           bold_allen
+3846730e6236   b480d03a9b72                      "docker-entrypoint.s…"   3 days ago     Created                                                                           eager_chebyshev
+2f147433e8e9   python:3.11                       "bash"                   4 days ago     Exited (0) 4 days ago                                                             trusting_proskuriakova
+c9703a2341b5   python:3.11                       "--version"              4 days ago     Created                                                                           adoring_booth
+3320b0142c3f   python:3.11                       "python3"                4 days ago     Exited (0) 4 days ago                                                             magical_ritchie
+7bdb039fde8f   yt-dlp                            "/usr/local/bin/yt-d…"   4 days ago     Exited (0) 4 days ago                                                             practical_lehmann
+a5b1e11b8d1a   bc4e942c4be9                      "https://www.youtube…"   4 days ago     Created                                                                           recursing_hellman
+a58a53324267   bc4e942c4be9                      "pwd"                    4 days ago     Exited (0) 4 days ago                                                             competent_elbakyan
+4b40d7705e15   bc4e942c4be9                      "ls -l"                  4 days ago     Exited (0) 4 days ago                                                             reverent_rhodes
+211b473e356f   bc4e942c4be9                      "ps"                     4 days ago     Exited (0) 4 days ago                                                             kind_zhukovsky
+def5457880ed   bc4e942c4be9                      "https://www.youtube…"   4 days ago     Created                                                                           sweet_meninsky
+9eee22d615e5   bc4e942c4be9                      "/usr/local/bin/yt-d…"   4 days ago     Exited (2) 4 days ago                                                             beautiful_taussig
+74f8ef94d1e2   bc4e942c4be9                      "/usr/local/bin/yt-d…"   4 days ago     Exited (2) 4 days ago                                                             elegant_nash
+8b136ec6c903   curler                            "/bin/sh -c ./script…"   4 days ago     Exited (130) 4 days ago                                                           gallant_cori
+660720be03af   hellow-docker:v2                  "ls"                     4 days ago     Exited (0) 4 days ago                                                             stoic_wright
+7bae7953ec9d   hellow-docker                     "ls"                     4 days ago     Exited (0) 4 days ago                                                             happy_saha
+0d556719e345   hellow-docker                     "sh"                     4 days ago     Exited (0) 4 days ago                                                             intelligent_solomon
+fd7b1a3c91fd   0f2174db623c                      "sh"                     4 days ago     Exited (137) 4 days ago                                                           beautiful_burnell
+196738b8df1c   0f2174db623c                      "/bin/sh -c ./hello.…"   4 days ago     Exited (0) 4 days ago                                                             stupefied_dijkstra
+7db73820c920   0f2174db623c                      "/bin/sh -c ./hello.…"   4 days ago     Exited (0) 4 days ago                                                             zealous_burnell
+f2bcce28edf2   e4c58958181a                      "sh -c 'while true; …"   4 days ago     Exited (130) 4 days ago                                                           looper
+bd74a515dfdf   e4c58958181a                      "/bin/bash"              4 days ago     Exited (0) 4 days ago                                                             trusting_brown
+38d675b52403   nginx                             "/docker-entrypoint.…"   4 days ago     Exited (0) 4 days ago                                                             romantic_stonebraker
+86b893fe60e6   nginx                             "/docker-entrypoint.…"   4 days ago     Exited (0) 4 days ago                                                             funny_murdock
+3b7d539bcdf0   nginx                             "/docker-entrypoint.…"   4 days ago     Exited (0) 4 days ago                                                             dreamy_blackburn
+721ee4384611   hello-world                       "/hello"                 4 days ago     Exited (0) 4 days ago                                                             laughing_wozniak
+b141c11fa196   hello-world                       "/hello"                 4 days ago     Exited (0) 4 days ago                                                             sharp_nightingale
+c0200bc3b00a   mysql:latest                      "docker-entrypoint.s…"   5 weeks ago    Exited (0) 5 weeks ago                                                            mysql
+00ba1a3728f0   mysql:latest                      "docker-entrypoint.s…"   5 weeks ago    Exited (1) 5 weeks ago                                                            mysqll
+d56fcd57b4ee   mysql                             "docker-entrypoint.s…"   5 weeks ago    Exited (1) 5 weeks ago                                                            test-mysql
+011977378e25   whatami:v1.0                      "docker-entrypoint.s…"   2 months ago   Created                                                                           naughty_tharp
+689a0e7cee73   whatami:v1.0                      "docker-entrypoint.s…"   2 months ago   Exited (137) 2 months ago                                                         quirky_golick
+b84457e57557   zunun-content-management-system   "/home/godd/Desktop/…"   6 months ago   Created                                                                           funny_antonelli
+a9436581eafa   da2211538128                      "app/main"               6 months ago   Created                                                                           confident_curie
+f101591ed3ee   8d12e0378493                      "/main"                  6 months ago   Created                                                                           youthful_dirac
+726b13e026fa   hello-world                       "/hello"                 6 months ago   Exited (0) 6 months ago                                                           silly_tharp
+d872f719a6f5   e4c58958181a                      "/bin/bash"              6 months ago   Exited (130) 6 months ago                                                         youthful_mclean
+16559cd977c7   hello-world                       "/hello"                 6 months ago   Exited (0) 6 months ago                                                           vigorous_moser
+2a2eba502ee8   c8231df6624f                      "./main"                 6 months ago   Created                                                                           sharp_gauss
+c6e17040b11d   c8231df6624f                      "Docker-user"            6 months ago   Created                                                                           focused_mccarthy
+223cfe3bf900   c8231df6624f                      "./main"                 6 months ago   Created                                                                           gracious_wright
+f2180b842969   hello-world                       "/hello"                 6 months ago   Exited (0) 6 months ago                                                           musing_aryabhata
+b9fdf9fd0f11   hello-world                       "/hello"                 6 months ago   Exited (0) 19 hours ago                                                           great_rhodes
+
+Script done on 2024-05-28 10:52:47+05:45 [COMMAND_EXIT_CODE="0"]

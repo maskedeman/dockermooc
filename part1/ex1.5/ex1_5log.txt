@@ -1,0 +1,47 @@
+Script started on 2024-05-28 11:40:19+05:45 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="158" LINES="36"]
+[Kdocker ps
+[?2004l
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS              PORTS     NAMES
+b68776079d01   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   2 minutes ago   Up About a minute             alpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret 
+[?2004l
+"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Execute a command in a running container
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret ^C[?2004l
+[?2004h[?2004l
+
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret ps[Kpoweroff docker psexec -it alpine_secret [K[7m script -a ex1_5log.txt [27m script -a ex1_5log.txt 
+[?2004l
+Script started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ poweroff ls[Kcd ex1.1ls[Kpoweroff [Kdocekr [K[K[K[Kker ps
+[?2004l
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+b68776079d01   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   3 minutes ago   Up 2 minutes             alpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ dV[K[7mocker exec -it alpine_secret [27mocker exec -it alpine_secret sh
+[?2004l
+/usr/src/app # [6ntail ./lo[J[Jtext.log
+2024-05-28 05:56:40 +0000 UTC
+2024-05-28 05:56:42 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:56:44 +0000 UTC
+2024-05-28 05:56:46 +0000 UTC
+2024-05-28 05:56:48 +0000 UTC
+2024-05-28 05:56:50 +0000 UTC
+2024-05-28 05:56:52 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:56:54 +0000 UTC
+/usr/src/app # [6nex[J[J^C
+/usr/src/app # [6nexit 
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34

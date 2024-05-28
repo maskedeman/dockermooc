@@ -1,0 +1,1204 @@
+Script started on 2024-05-28 11:20:13+05:45 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="158" LINES="36"]
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker run -it ubuntut[K:22.04 sh -c ''a'p't'-'g'e't' 'u'p'd'a't'e' '&'&' 'a'p't'-'g'e't' 'i'n's't'a'l'l' 'c'u'r'l' '&'&' 'w'h'i'l'e' 't'r'u'e' '[1P';' 'd'o' 'e'h'[1P'c'h'o' '"'"'D'[1P'z"'[1P"'I"'n"'p"'u"'t"' "'w"'e"'b"'s"'i"'t"'e"':"'[C;' ' [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr'e'a'd' 'w'e'b's'i't'e' '[1P';' 'e'h'[1P'c'h'o' '"'"'S"'e"'a"'r"'c"'h"'i"'n"'g"' "'."'."'[1P"'[1P"'[1P"'."'."'[C;' 's'l'e'e'p' '1';' 'c'u'r'l' 'h't't'p':'/'/'$'w'e'b's'i't'e'l'[1P';' 'd'o'n'e'
+[?2004l0% [Working]0% [Waiting for headers] [Connecting to security.ubuntu.com (91.189.91.82)]                                                                           Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+0% [1 InRelease 1132 B/270 kB 0%] [Connecting to security.ubuntu.com (91.189.91.82)]                                                                                    Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+                                                                                    0% [1 InRelease 21.3 kB/270 kB 8%] [2 InRelease 1132 B/110 kB 1%]0% [1 InRelease 80.3 kB/270 kB 30%] [2 InRelease 42.9 kB/110 kB 39%]                                                                    0% [1 InRelease 183 kB/270 kB 68%]0% [1 InRelease 234 kB/270 kB 87%]                                  0% [Waiting for headers]0% [Waiting for headers] [Waiting for headers]                                              Get:3 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1083 kB]
+0% [Waiting for headers] [3 Packages 1229 B/1083 kB 0%]                                                       Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+0% [4 InRelease 2572 B/119 kB 2%] [3 Packages 55.9 kB/1083 kB 5%]                                                                 0% [3 Packages 111 kB/1083 kB 10%]0% [Waiting for headers] [3 Packages 148 kB/1083 kB 14%]                                                        Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
+0% [5 InRelease 1132 B/109 kB 1%] [3 Packages 259 kB/1083 kB 24%]                                                                 0% [3 Packages 357 kB/1083 kB 33%]15% [Waiting for headers] [3 Packages 510 kB/1083 kB 47%]                                                         Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+16% [6 Packages 5519 B/1792 kB 0%] [3 Packages 790 kB/1083 kB 73%]                                                                  17% [6 Packages 173 kB/1792 kB 10%]17% [3 Packages store 0 B] [6 Packages 174 kB/1792 kB 10%] [Waiting for headers]                                                                                18% [6 Packages 259 kB/1792 kB 14%] [Waiting for headers]                                                         Get:7 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [44.7 kB]
+18% [6 Packages 337 kB/1792 kB 19%] [7 Packages 4113 B/44.7 kB 9%]                                                                  18% [6 Packages 337 kB/1792 kB 19%]                                   Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1853 kB]
+18% [6 Packages 337 kB/1792 kB 19%] [8 Packages 4096 B/1853 kB 0%]18% [7 Packages store 0 B] [6 Packages 337 kB/1792 kB 19%] [8 Packages 5261 B/1853 kB 0%]                                                                                         19% [6 Packages 337 kB/1792 kB 19%] [8 Packages 5261 B/1853 kB 0%]21% [6 Packages 674 kB/1792 kB 38%] [8 Packages 741 kB/1853 kB 40%]                                                                   24% [6 Packages 828 kB/1792 kB 46%]                                   Get:9 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2395 kB]
+24% [6 Packages 828 kB/1792 kB 46%] [9 Packages 6313 B/2395 kB 0%]24% [8 Packages store 0 B] [6 Packages 831 kB/1792 kB 46%] [9 Packages 6313 B/2395 kB 0%]                                                                                         27% [6 Packages 1058 kB/1792 kB 59%] [9 Packages 479 kB/2395 kB 20%]30% [6 Packages 1414 kB/1792 kB 79%] [9 Packages 1590 kB/2395 kB 66%]32% [6 Packages 1502 kB/1792 kB 84%] [9 Packages 1996 kB/2395 kB 83%]                                                                     33% [Waiting for headers] [9 Packages 2360 kB/2395 kB 99%]                                                          Get:10 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+33% [10 Packages 52.7 kB/266 kB 20%] [9 Packages 2360 kB/2395 kB 99%]33% [6 Packages store 0 B] [10 Packages 52.7 kB/266 kB 20%] [9 Packages 2360 kB/2395 kB 99%]                                                                                            34% [6 Packages store 0 B] [Waiting for headers] [9 Packages 2360 kB/2395 kB 99%]                                                                                 Get:11 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+34% [6 Packages store 0 B] [11 Packages 48.9 kB/164 kB 30%] [9 Packages 2360 kB/2395 kB 99%]                                                                                            34% [6 Packages store 0 B] [Waiting for headers] [9 Packages 2360 kB/2395 kB 99%]                                                                                 Get:12 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+34% [6 Packages store 0 B] [12 Packages 31.0 kB/17.5 MB 0%] [9 Packages 2360 kB/2395 kB 99%]                                                                                            37% [12 Packages 834 kB/17.5 MB 5%] [9 Packages 2360 kB/2395 kB 99%]37% [10 Packages store 0 B] [12 Packages 834 kB/17.5 MB 5%] [9 Packages 2360 kB/2395 kB 99%]                                                                                            38% [12 Packages 887 kB/17.5 MB 5%] [9 Packages 2360 kB/2395 kB 99%]38% [11 Packages store 0 B] [12 Packages 887 kB/17.5 MB 5%] [9 Packages 2360 kB/2395 kB 99%]                                                                                            38% [12 Packages 887 kB/17.5 MB 5%] [9 Packages 2360 kB/2395 kB 99%]38% [12 Packages 887 kB/17.5 MB 5%]                                                                                                             1461 kB/s 15s38% [9 Packages store 0 B] [12 Packages 887 kB/17.5 MB 5%]                                                                                      1461 kB/s 15s40% [12 Packages 1138 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1146 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1195 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1216 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1216 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1216 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1216 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1216 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1220 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1236 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                            1461 kB/s 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                       59.6 kB/s 6min 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                       59.6 kB/s 6min 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                       59.6 kB/s 6min 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                       59.6 kB/s 6min 15s40% [12 Packages 1254 kB/17.5 MB 7%]                                                                                                       59.6 kB/s 6min 15s44% [12 Packages 2882 kB/17.5 MB 16%]                                                                                                      59.6 kB/s 5min 48s45% [12 Packages 3152 kB/17.5 MB 18%]                                                                                                      59.6 kB/s 5min 43s45% [12 Packages 3325 kB/17.5 MB 19%]                                                                                                      59.6 kB/s 5min 40s46% [12 Packages 3749 kB/17.5 MB 21%]                                                                                                      59.6 kB/s 5min 33s48% [12 Packages 4293 kB/17.5 MB 25%]                                                                                                      59.6 kB/s 5min 24s49% [12 Packages 4735 kB/17.5 MB 27%]                                                                                                      59.6 kB/s 5min 17s50% [12 Packages 5132 kB/17.5 MB 29%]                                                                                                      59.6 kB/s 5min 10s51% [12 Packages 5518 kB/17.5 MB 32%]                                                                                                            710 kB/s 25s52% [12 Packages 5949 kB/17.5 MB 34%]                                                                                                            710 kB/s 24s53% [12 Packages 6375 kB/17.5 MB 36%]                                                                                                            710 kB/s 24s54% [12 Packages 6823 kB/17.5 MB 39%]                                                                                                            710 kB/s 23s55% [12 Packages 7333 kB/17.5 MB 42%]                                                                                                            710 kB/s 22s56% [12 Packages 7719 kB/17.5 MB 44%]                                                                                                            710 kB/s 22s58% [12 Packages 8348 kB/17.5 MB 48%]                                                                                                            710 kB/s 21s59% [12 Packages 8885 kB/17.5 MB 51%]                                                                                                            710 kB/s 20s60% [12 Packages 9370 kB/17.5 MB 54%]                                                                                                            710 kB/s 20s60% [12 Packages 9376 kB/17.5 MB 54%]                                                                                                            710 kB/s 20s62% [12 Packages 9886 kB/17.5 MB 57%]                                                                                                            710 kB/s 19s63% [12 Packages 10.4 MB/17.5 MB 60%]                                                                                                            710 kB/s 18s65% [12 Packages 11.1 MB/17.5 MB 63%]                                                                                                            923 kB/s 13s65% [12 Packages 11.2 MB/17.5 MB 64%]                                                                                                            923 kB/s 13s66% [12 Packages 11.7 MB/17.5 MB 67%]                                                                                                            923 kB/s 12s66% [12 Packages 11.7 MB/17.5 MB 67%]                                                                                                            923 kB/s 12s66% [12 Packages 11.7 MB/17.5 MB 67%]                                                                                                            923 kB/s 12s68% [12 Packages 12.6 MB/17.5 MB 72%]                                                                                                            923 kB/s 11s69% [12 Packages 13.0 MB/17.5 MB 75%]                                                                                                            923 kB/s 11s69% [12 Packages 13.0 MB/17.5 MB 75%]                                                                                                            923 kB/s 11s69% [12 Packages 13.0 MB/17.5 MB 75%]                                                                                                            923 kB/s 11s71% [12 Packages 13.5 MB/17.5 MB 77%]                                                                                                            923 kB/s 10s71% [12 Packages 13.6 MB/17.5 MB 78%]                                                                                                            923 kB/s 10s73% [12 Packages 14.4 MB/17.5 MB 83%]                                                                                                             923 kB/s 9s73% [12 Packages 14.5 MB/17.5 MB 83%]                                                                                                            572 kB/s 15s75% [12 Packages 15.3 MB/17.5 MB 88%]                                                                                                            572 kB/s 14s78% [12 Packages 16.5 MB/17.5 MB 94%]                                                                                                            572 kB/s 12s80% [12 Packages 17.0 MB/17.5 MB 98%]                                                                                                            572 kB/s 11s81% [Waiting for headers]                                                                                                                        572 kB/s 10s                                                                                                                                                             Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2125 kB]
+81% [13 Packages 57.4 kB/2125 kB 3%]                                                                                                             572 kB/s 10s81% [12 Packages store 0 B] [13 Packages 57.4 kB/2125 kB 3%]                                                                                     572 kB/s 10s83% [12 Packages store 0 B] [13 Packages 838 kB/2125 kB 39%]                                                                                      572 kB/s 9s84% [12 Packages store 0 B] [13 Packages 1497 kB/2125 kB 70%]                                                                                     572 kB/s 8s85% [13 Packages 1555 kB/2125 kB 73%]                                                                                                             572 kB/s 8s87% [Waiting for headers]                                                                                                                         572 kB/s 7s                                                                                                                                                             Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2468 kB]
+87% [14 Packages 1744 B/2468 kB 0%]                                                                                                               572 kB/s 7s87% [13 Packages store 0 B] [14 Packages 1744 B/2468 kB 0%]                                                                                       572 kB/s 7s88% [14 Packages 260 kB/2468 kB 11%]                                                                                                              572 kB/s 6s89% [14 Packages 744 kB/2468 kB 30%]                                                                                                              572 kB/s 5s90% [14 Packages 1118 kB/2468 kB 45%]                                                                                                             572 kB/s 5s92% [14 Packages 2038 kB/2468 kB 83%]                                                                                                             572 kB/s 3s93% [Working]                                                                                                                                     572 kB/s 2s                                                                                                                                                             Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [51.1 kB]
+93% [15 Packages 3079 B/51.1 kB 6%]                                                                                                               572 kB/s 2s93% [14 Packages store 0 B] [15 Packages 3079 B/51.1 kB 6%]                                                                                       572 kB/s 2s93% [14 Packages store 0 B] [Waiting for headers]                                                                                                 572 kB/s 2s                                                                                                                                                             Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1375 kB]
+93% [14 Packages store 0 B] [16 Packages 24 B/1375 kB 0%]                                                                                         572 kB/s 2s94% [16 Packages 195 kB/1375 kB 14%]                                                                                                              572 kB/s 2s94% [15 Packages store 0 B] [16 Packages 195 kB/1375 kB 14%]                                                                                      572 kB/s 2s95% [16 Packages 195 kB/1375 kB 14%]                                                                                                              572 kB/s 2s97% [16 Packages 978 kB/1375 kB 71%]                                                                                                              572 kB/s 0s98% [Waiting for headers]                                                                                                                        1456 kB/s 0s                                                                                                                                                             Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.0 kB]
+98% [17 Packages 1644 B/35.0 kB 5%]                                                                                                              1456 kB/s 0s98% [16 Packages store 0 B] [17 Packages 1644 B/35.0 kB 5%]                                                                                      1456 kB/s 0s98% [16 Packages store 0 B] [Waiting for headers]                                                                                                1456 kB/s 0s                                                                                                                                                             Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [110 kB]
+98% [16 Packages store 0 B] [18 Packages 1992 B/110 kB 2%]                                                                                       1456 kB/s 0s99% [18 Packages 93.2 kB/110 kB 85%]                                                                                                             1456 kB/s 0s99% [17 Packages store 0 B] [18 Packages 93.2 kB/110 kB 85%]                                                                                     1456 kB/s 0s99% [18 Packages 102 kB/110 kB 92%]                                                                                                              1456 kB/s 0s99% [Working]                                                                                                                                    1456 kB/s 0s99% [18 Packages store 0 B]                                                                                                                      1456 kB/s 0s100% [Working]                                                                                                                                   1456 kB/s 0s                                                                                                                                                             Fetched 31.8 MB in 37s (867 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 52%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 65%Reading package lists... 65%Reading package lists... 74%Reading package lists... 74%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 86%Reading package lists... 86%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 49%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 65%Reading package lists... 65%Reading package lists... 74%Reading package lists... 74%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 86%Reading package lists... 86%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4
+  openssl publicsuffix
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db
+  libssh-4 openssl publicsuffix
+0 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2991 kB of archives.
+After this operation, 7125 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.15 [1186 kB]
+0% [1 openssl 2595 B/1186 kB 0%]2% [1 openssl 60.2 kB/1186 kB 5%]6% [1 openssl 209 kB/1186 kB 18%]16% [1 openssl 584 kB/1186 kB 49%]29% [1 openssl 1078 kB/1186 kB 91%]                                   33% [Working]             Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates all 20230311ubuntu0.22.04.1 [155 kB]
+33% [2 ca-certificates 2597 B/155 kB 2%]                                        39% [Waiting for headers]                         Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnghttp2-14 amd64 1.43.0-1ubuntu0.2 [76.9 kB]
+39% [3 libnghttp2-14 5229 B/76.9 kB 7%]                                       42% [Waiting for headers]                         Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpsl5 amd64 0.21.0-1.2build2 [58.4 kB]
+42% [4 libpsl5 13.5 kB/58.4 kB 23%]                                   45% [Waiting for headers]                         Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 publicsuffix all 20211207.1025-1 [129 kB]
+45% [5 publicsuffix 6718 B/129 kB 5%]                                     50% [Working]             Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+50% [6 libbrotli1 14.9 kB/315 kB 5%]                                    59% [Waiting for headers]                         Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1.2 [20.5 kB]
+59% [7 libsasl2-modules-db 2219 B/20.5 kB 11%]                                              61% [Working]             Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1.2 [53.8 kB]
+61% [8 libsasl2-2 3062 B/53.8 kB 6%]                                    64% [Waiting for headers]                         Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.17+dfsg-0ubuntu0.22.04.1 [183 kB]
+64% [9 libldap-2.5-0 3805 B/183 kB 2%]                                      70% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
+70% [10 librtmp1 3685 B/58.2 kB 6%]                                   73% [Working]             Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssh-4 amd64 0.9.6-2ubuntu0.22.04.3 [186 kB]
+73% [11 libssh-4 1412 B/186 kB 1%]                                  79% [Working]             Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.16 [290 kB]
+80% [12 libcurl4 2597 B/290 kB 1%]81% [12 libcurl4 68.8 kB/290 kB 24%]                                    89% [Working]             Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.16 [194 kB]
+89% [13 curl 2597 B/194 kB 1%]                              95% [Working]             Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.17+dfsg-0ubuntu0.22.04.1 [15.8 kB]
+95% [14 libldap-common 15.8 kB/15.8 kB 100%]                                            97% [Working]             Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules amd64 2.1.27+dfsg2-3ubuntu1.2 [68.8 kB]
+97% [15 libsasl2-modules 23.4 kB/68.8 kB 34%]                                             100% [Working]              Fetched 2991 kB in 5s (568 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.15_amd64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.15) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20230311ubuntu0.22.04.1_all.deb ...
+Unpacking ca-certificates (20230311ubuntu0.22.04.1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../02-libnghttp2-14_1.43.0-1ubuntu0.2_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../03-libpsl5_0.21.0-1.2build2_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../04-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../05-libbrotli1_1.0.9-2build6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../06-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../07-libsasl2-2_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../08-libldap-2.5-0_2.5.17+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../10-libssh-4_0.9.6-2ubuntu0.22.04.3_amd64.deb ...
+Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.3) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../11-libcurl4_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.16) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../12-curl_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.16) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../13-libldap-common_2.5.17+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../14-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libpsl5:amd64 (0.21.0-1.2build2) ...
+Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+Setting up libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+Setting up libldap-common (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.3) ...
+Setting up openssl (3.0.2-0ubuntu1.15) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libldap-2.5-0:amd64 (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Setting up ca-certificates (20230311ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+137 added, 0 removed; done.
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.16) ...
+Setting up curl (7.81.0-1ubuntu1.16) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.7) ...
+Processing triggers for ca-certificates (20230311ubuntu0.22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Input website:
+helsinki.fi
+Searching..
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+Input website:
+^Z^Z^C[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ clea[K[K[K[Kdocker ps
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                  CREATED          STATUS          PORTS                                                 NAMES
+e00db2cbb05e   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"    21 minutes ago   Up 18 minutes                                                         mystifying_greider
+35de01ef906d   maskimux/whatami:latest                    "docker-entrypoint.s…"   18 hours ago     Up 35 minutes   5173/tcp, 0.0.0.0:5000->8080/tcp, :::5000->8080/tcp   portfolio
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker rm --force mys
+mysql               mysqll              mystifying_greider  
+]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker rm --force mystifying_greider 
+[?2004lmystifying_greider
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker w[Kmaski[K[K[K[K[Kport [K[K[K[K[K[K kill portfolio 
+[?2004lportfolio
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker pskill portfolio [15@rm --force mystifying_greider[Cps[Krun -it ubuntu:22.04 sh -c 'apt-get update && apt-get install curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C curl && while true; do echo "Input website:"; r[1@e[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- curl && while true; do echo "Input website:"; [1@r[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cy curl && while true; do echo "Input website:";[1@ [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l0% [Working]0% [Connecting to archive.ubuntu.com (91.189.91.83)] [Waiting for headers]                                                                          Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+                                                                          0% [Waiting for headers] [1 InRelease 14.0 kB/110 kB 13%]                                                         Get:2 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+0% [2 InRelease 4012 B/270 kB 1%] [1 InRelease 22.5 kB/110 kB 20%]0% [2 InRelease 42.9 kB/270 kB 16%] [1 InRelease 89.7 kB/110 kB 81%]                                                                    0% [2 InRelease 48.7 kB/270 kB 18%]0% [2 InRelease 48.7 kB/270 kB 18%]0% [2 InRelease 51.5 kB/270 kB 19%] [Waiting for headers]0% [2 InRelease 51.5 kB/270 kB 19%] [Waiting for headers]                                                         Get:3 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1853 kB]
+0% [2 InRelease 119 kB/270 kB 44%] [3 Packages 6929 B/1853 kB 0%]0% [2 InRelease 155 kB/270 kB 57%] [3 Packages 26.9 kB/1853 kB 1%]0% [2 InRelease 174 kB/270 kB 64%] [3 Packages 55.5 kB/1853 kB 3%]                                                                  0% [2 InRelease 224 kB/270 kB 83%] [3 Packages 121 kB/1853 kB 7%]                                                                 0% [3 Packages 133 kB/1853 kB 7%]0% [Waiting for headers] [3 Packages 155 kB/1853 kB 8%]                                                       Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+0% [4 InRelease 1111 B/119 kB 1%] [3 Packages 184 kB/1853 kB 10%]0% [4 InRelease 70.2 kB/119 kB 59%] [3 Packages 274 kB/1853 kB 15%]0% [3 Packages 347 kB/1853 kB 19%]                                                                                                          139 kB/s 2min 57s0% [Connecting to archive.ubuntu.com (91.189.91.81)] [3 Packages 372 kB/1853 kB 20%]                                                        139 kB/s 3min 40s                                                                                                                                                             Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
+0% [5 InRelease 1132 B/109 kB 1%] [3 Packages 484 kB/1853 kB 26%]                                                                           139 kB/s 3min 40s0% [5 InRelease 28.5 kB/109 kB 26%] [3 Packages 628 kB/1853 kB 34%]                                                                         139 kB/s 3min 39s0% [5 InRelease 90.4 kB/109 kB 83%] [3 Packages 754 kB/1853 kB 41%]                                                                         139 kB/s 3min 37s0% [3 Packages 778 kB/1853 kB 42%]                                                                                                          139 kB/s 3min 37s16% [Waiting for headers] [3 Packages 799 kB/1853 kB 43%]                                                                                   139 kB/s 3min 38s                                                                                                                                                             Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+16% [6 Packages 1197 B/17.5 MB 0%] [3 Packages 854 kB/1853 kB 46%]                                                                          139 kB/s 3min 37s17% [6 Packages 193 kB/17.5 MB 1%] [3 Packages 939 kB/1853 kB 51%]                                                                          139 kB/s 3min 35s17% [6 Packages 374 kB/17.5 MB 2%] [3 Packages 1008 kB/1853 kB 54%]                                                                         139 kB/s 3min 34s19% [6 Packages 1109 kB/17.5 MB 6%] [3 Packages 1161 kB/1853 kB 63%]                                                                        139 kB/s 3min 27s23% [6 Packages 2441 kB/17.5 MB 14%] [3 Packages 1264 kB/1853 kB 68%]                                                                       139 kB/s 3min 17s24% [6 Packages 2677 kB/17.5 MB 15%] [3 Packages 1285 kB/1853 kB 69%]                                                                       139 kB/s 3min 15s24% [6 Packages 2677 kB/17.5 MB 15%] [3 Packages 1285 kB/1853 kB 69%]                                                                       139 kB/s 3min 15s24% [6 Packages 2677 kB/17.5 MB 15%] [3 Packages 1285 kB/1853 kB 69%]                                                                       139 kB/s 3min 15s24% [6 Packages 2677 kB/17.5 MB 15%] [3 Packages 1285 kB/1853 kB 69%]                                                                       139 kB/s 3min 15s24% [6 Packages 2693 kB/17.5 MB 15%] [3 Packages 1285 kB/1853 kB 69%]                                                                            592 kB/s 46s24% [6 Packages 2693 kB/17.5 MB 15%] [3 Packages 1302 kB/1853 kB 70%]                                                                            592 kB/s 45s24% [6 Packages 2693 kB/17.5 MB 15%] [3 Packages 1354 kB/1853 kB 73%]                                                                            592 kB/s 45s32% [6 Packages 5928 kB/17.5 MB 34%] [3 Packages 1453 kB/1853 kB 78%]                                                                            592 kB/s 40s34% [6 Packages 6478 kB/17.5 MB 37%] [3 Packages 1453 kB/1853 kB 78%]                                                                            592 kB/s 39s35% [6 Packages 6966 kB/17.5 MB 40%] [3 Packages 1453 kB/1853 kB 78%]                                                                            592 kB/s 38s35% [6 Packages 6966 kB/17.5 MB 40%] [3 Packages 1456 kB/1853 kB 79%]                                                                            592 kB/s 38s35% [6 Packages 6966 kB/17.5 MB 40%] [3 Packages 1456 kB/1853 kB 79%]                                                                            592 kB/s 38s35% [6 Packages 6966 kB/17.5 MB 40%] [3 Packages 1456 kB/1853 kB 79%]                                                                            592 kB/s 38s35% [6 Packages 6966 kB/17.5 MB 40%] [3 Packages 1456 kB/1853 kB 79%]                                                                            592 kB/s 38s36% [6 Packages 7298 kB/17.5 MB 42%] [3 Packages 1461 kB/1853 kB 79%]                                                                            592 kB/s 37s36% [6 Packages 7299 kB/17.5 MB 42%] [3 Packages 1461 kB/1853 kB 79%]                                                                            592 kB/s 37s36% [6 Packages 7433 kB/17.5 MB 43%] [3 Packages 1488 kB/1853 kB 80%]                                                                            823 kB/s 27s37% [6 Packages 7629 kB/17.5 MB 44%] [3 Packages 1522 kB/1853 kB 82%]                                                                            823 kB/s 26s39% [6 Packages 8556 kB/17.5 MB 49%] [3 Packages 1525 kB/1853 kB 82%]                                                                            823 kB/s 25s39% [6 Packages 8556 kB/17.5 MB 49%] [3 Packages 1525 kB/1853 kB 82%]                                                                            823 kB/s 25s41% [6 Packages 9168 kB/17.5 MB 52%] [3 Packages 1525 kB/1853 kB 82%]                                                                            823 kB/s 24s42% [6 Packages 9916 kB/17.5 MB 57%] [3 Packages 1525 kB/1853 kB 82%]                                                                            823 kB/s 24s42% [6 Packages 9916 kB/17.5 MB 57%] [3 Packages 1525 kB/1853 kB 82%]                                                                            823 kB/s 24s46% [6 Packages 11.2 MB/17.5 MB 64%] [3 Packages 1586 kB/1853 kB 86%]                                                                            823 kB/s 22s50% [6 Packages 12.8 MB/17.5 MB 74%] [3 Packages 1622 kB/1853 kB 88%]                                                                            823 kB/s 20s52% [6 Packages 13.6 MB/17.5 MB 78%] [3 Packages 1676 kB/1853 kB 90%]                                                                            823 kB/s 19s55% [6 Packages 14.5 MB/17.5 MB 83%] [3 Packages 1728 kB/1853 kB 93%]                                                                            823 kB/s 18s57% [6 Packages 15.4 MB/17.5 MB 88%] [3 Packages 1776 kB/1853 kB 96%]                                                                            823 kB/s 17s59% [6 Packages 16.2 MB/17.5 MB 93%] [3 Packages 1825 kB/1853 kB 98%]                                                                            1523 kB/s 8s61% [6 Packages 16.8 MB/17.5 MB 96%]                                                                                                             1523 kB/s 8s61% [3 Packages store 0 B] [6 Packages 16.8 MB/17.5 MB 96%] [Waiting for headers]                                                                1523 kB/s 8s62% [6 Packages 17.0 MB/17.5 MB 98%] [Waiting for headers]                                                                                       1523 kB/s 8s                                                                                                                                                             Get:7 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [2395 kB]
+63% [6 Packages 17.5 MB/17.5 MB 100%] [7 Packages 1217 B/2395 kB 0%]                                                                             1523 kB/s 7s63% [7 Packages 2645 B/2395 kB 0%]                                                                                                               1523 kB/s 7s63% [6 Packages store 0 B] [Waiting for headers] [7 Packages 2645 B/2395 kB 0%]                                                                  1523 kB/s 7s                                                                                                                                                             Get:8 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+63% [6 Packages store 0 B] [8 Packages 1199 B/1792 kB 0%] [7 Packages 26.9 kB/2395 kB 1%]                                                        1523 kB/s 7s65% [6 Packages store 0 B] [8 Packages 877 kB/1792 kB 49%] [7 Packages 79.8 kB/2395 kB 3%]                                                       1523 kB/s 7s68% [8 Packages 1507 kB/1792 kB 84%] [7 Packages 123 kB/2395 kB 5%]                                                                              1523 kB/s 6s68% [7 Packages 134 kB/2395 kB 6%]                                                                                                               1523 kB/s 6s68% [8 Packages store 0 B] [Waiting for headers] [7 Packages 134 kB/2395 kB 6%]                                                                  1523 kB/s 6s69% [Waiting for headers] [7 Packages 153 kB/2395 kB 6%]                                                                                         1523 kB/s 6s                                                                                                                                                             Get:9 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+69% [9 Packages 1201 B/266 kB 0%] [7 Packages 165 kB/2395 kB 7%]                                                                                 1523 kB/s 6s70% [7 Packages 183 kB/2395 kB 8%]                                                                                                               1523 kB/s 6s70% [9 Packages store 0 B] [Waiting for headers] [7 Packages 183 kB/2395 kB 8%]                                                                  1523 kB/s 6s70% [Waiting for headers] [7 Packages 190 kB/2395 kB 8%]                                                                                         1523 kB/s 6s                                                                                                                                                             Get:10 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+70% [10 Packages 1201 B/164 kB 1%] [7 Packages 214 kB/2395 kB 9%]                                                                                1523 kB/s 6s71% [7 Packages 225 kB/2395 kB 9%]                                                                                                               1523 kB/s 6s71% [10 Packages store 0 B] [Waiting for headers] [7 Packages 225 kB/2395 kB 9%]                                                                 1523 kB/s 6s71% [Waiting for headers] [7 Packages 225 kB/2395 kB 9%]                                                                                         1523 kB/s 6s                                                                                                                                                             Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [2468 kB]
+71% [11 Packages 1199 B/2468 kB 0%] [7 Packages 250 kB/2395 kB 10%]                                                                              1523 kB/s 6s74% [11 Packages 851 kB/2468 kB 34%] [7 Packages 305 kB/2395 kB 13%]                                                                             1523 kB/s 5s77% [11 Packages 1964 kB/2468 kB 80%] [7 Packages 367 kB/2395 kB 15%]                                                                            1523 kB/s 4s78% [7 Packages 398 kB/2395 kB 17%]                                                                                                              1523 kB/s 4s78% [11 Packages store 0 B] [Waiting for headers] [7 Packages 398 kB/2395 kB 17%]                                                                1523 kB/s 4s78% [Waiting for headers] [7 Packages 414 kB/2395 kB 17%]                                                                                        1523 kB/s 4s                                                                                                                                                             Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [51.1 kB]
+79% [12 Packages 2643 B/51.1 kB 5%] [7 Packages 428 kB/2395 kB 18%]                                                                              1523 kB/s 4s79% [7 Packages 431 kB/2395 kB 18%]                                                                                                              1523 kB/s 4s79% [12 Packages store 0 B] [Waiting for headers] [7 Packages 431 kB/2395 kB 18%]                                                                1523 kB/s 4s79% [Waiting for headers] [7 Packages 431 kB/2395 kB 18%]                                                                                        1523 kB/s 4s                                                                                                                                                             Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2125 kB]
+79% [13 Packages 1199 B/2125 kB 0%] [7 Packages 457 kB/2395 kB 19%]                                                                              1523 kB/s 4s82% [13 Packages 976 kB/2125 kB 46%] [7 Packages 510 kB/2395 kB 21%]                                                                             1523 kB/s 3s84% [13 Packages 1732 kB/2125 kB 82%] [7 Packages 560 kB/2395 kB 23%]                                                                            1523 kB/s 3s85% [7 Packages 582 kB/2395 kB 24%]                                                                                                              1408 kB/s 3s85% [13 Packages store 0 B] [Waiting for headers] [7 Packages 582 kB/2395 kB 24%]                                                                1408 kB/s 3s86% [Waiting for headers] [7 Packages 611 kB/2395 kB 26%]                                                                                        1408 kB/s 3s                                                                                                                                                             Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1375 kB]
+86% [14 Packages 1199 B/1375 kB 0%] [7 Packages 638 kB/2395 kB 27%]                                                                              1408 kB/s 3s88% [14 Packages 851 kB/1375 kB 62%] [7 Packages 685 kB/2395 kB 29%]                                                                             1408 kB/s 2s88% [14 Packages 857 kB/1375 kB 62%] [7 Packages 734 kB/2395 kB 31%]                                                                             1408 kB/s 2s89% [7 Packages 747 kB/2395 kB 31%]                                                                                                              1408 kB/s 2s89% [14 Packages store 0 B] [Waiting for headers] [7 Packages 747 kB/2395 kB 31%]                                                                1408 kB/s 2s90% [Waiting for headers] [7 Packages 772 kB/2395 kB 32%]                                                                                        1408 kB/s 2s                                                                                                                                                             Get:15 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [110 kB]
+90% [15 Packages 1201 B/110 kB 1%] [7 Packages 775 kB/2395 kB 32%]                                                                               1408 kB/s 2s90% [7 Packages 784 kB/2395 kB 33%]                                                                                                              1408 kB/s 1s90% [15 Packages store 0 B] [7 Packages 784 kB/2395 kB 33%]                                                                                      1408 kB/s 1s91% [Waiting for headers] [7 Packages 787 kB/2395 kB 33%]                                                                                        1408 kB/s 1s                                                                                                                                                             Get:16 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [35.0 kB]
+91% [16 Packages 1203 B/35.0 kB 3%] [7 Packages 821 kB/2395 kB 34%]                                                                              1408 kB/s 1s91% [7 Packages 822 kB/2395 kB 34%]                                                                                                              1408 kB/s 1s91% [16 Packages store 0 B] [7 Packages 822 kB/2395 kB 34%]                                                                                      1408 kB/s 1s92% [7 Packages 822 kB/2395 kB 34%]                                                                                                              1408 kB/s 1s92% [7 Packages 864 kB/2395 kB 36%]                                                                                                              1408 kB/s 1s92% [7 Packages 997 kB/2395 kB 42%]                                                                                                              1408 kB/s 1s92% [7 Packages 1101 kB/2395 kB 46%]                                                                                                             1408 kB/s 1s93% [7 Packages 1204 kB/2395 kB 50%]                                                                                                             1408 kB/s 1s93% [7 Packages 1326 kB/2395 kB 55%]                                                                                                             1408 kB/s 1s93% [7 Packages 1489 kB/2395 kB 62%]                                                                                                             1408 kB/s 1s94% [7 Packages 1708 kB/2395 kB 71%]                                                                                                             1408 kB/s 1s95% [7 Packages 1998 kB/2395 kB 83%]                                                                                                             1408 kB/s 1s95% [7 Packages 2386 kB/2395 kB 100%]                                                                                                             512 kB/s 2s95% [Working]                                                                                                                                     512 kB/s 2s95% [7 Packages store 0 B]                                                                                                                        512 kB/s 2s                                                                                                                                                             Get:17 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1083 kB]
+96% [7 Packages store 0 B] [17 Packages 13.7 kB/1083 kB 1%]                                                                                       512 kB/s 2s97% [17 Packages 224 kB/1083 kB 21%]                                                                                                              512 kB/s 1s98% [17 Packages 658 kB/1083 kB 61%]                                                                                                              512 kB/s 0s98% [17 Packages 744 kB/1083 kB 69%]                                                                                                              512 kB/s 0s99% [Working]                                                                                                                                     512 kB/s 0s                                                                                                                                                             Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [44.7 kB]
+99% [18 Packages 44.7 kB/44.7 kB 100%]                                                                                                            512 kB/s 0s99% [17 Packages store 0 B] [18 Packages 44.7 kB/44.7 kB 100%]                                                                                    512 kB/s 0s99% [17 Packages store 0 B]                                                                                                                       512 kB/s 0s99% [Working]                                                                                                                                     512 kB/s 0s99% [18 Packages store 0 B]                                                                                                                       512 kB/s 0s100% [Working]                                                                                                                                    512 kB/s 0s                                                                                                                                                             Fetched 31.8 MB in 39s (820 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 39%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 65%Reading package lists... 65%Reading package lists... 74%Reading package lists... 74%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 86%Reading package lists... 86%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 5%Reading package lists... 5%Reading package lists... 6%Reading package lists... 6%Reading package lists... 51%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 57%Reading package lists... 65%Reading package lists... 65%Reading package lists... 74%Reading package lists... 74%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 79%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 86%Reading package lists... 86%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 69%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4
+  openssl publicsuffix
+Suggested packages:
+  libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp libsasl2-modules-sql
+The following NEW packages will be installed:
+  ca-certificates curl libbrotli1 libcurl4 libldap-2.5-0 libldap-common libnghttp2-14 libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db
+  libssh-4 openssl publicsuffix
+0 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2991 kB of archives.
+After this operation, 7125 kB of additional disk space will be used.
+0% [Working]0% [Connecting to archive.ubuntu.com (91.189.91.83)]                                                    Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.15 [1186 kB]
+                                                    0% [1 openssl 1146 B/1186 kB 0%]0% [1 openssl 15.5 kB/1186 kB 1%]1% [1 openssl 31.4 kB/1186 kB 3%]2% [1 openssl 81.8 kB/1186 kB 7%]5% [1 openssl 191 kB/1186 kB 16%]9% [1 openssl 325 kB/1186 kB 27%]21% [1 openssl 777 kB/1186 kB 66%]                                  33% [Working]             Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates all 20230311ubuntu0.22.04.1 [155 kB]
+33% [2 ca-certificates 4028 B/155 kB 3%]                                        39% [Working]             Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnghttp2-14 amd64 1.43.0-1ubuntu0.2 [76.9 kB]
+39% [3 libnghttp2-14 23.9 kB/76.9 kB 31%]                                         42% [Working]             Get:4 http://archive.ubuntu.com/ubuntu jammy/main amd64 libpsl5 amd64 0.21.0-1.2build2 [58.4 kB]
+42% [4 libpsl5 3908 B/58.4 kB 7%]                                 45% [Working]             Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 publicsuffix all 20211207.1025-1 [129 kB]
+45% [5 publicsuffix 0 B/129 kB 0%]                                  50% [Working]             Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+50% [6 libbrotli1 0 B/315 kB 0%]54% [6 libbrotli1 157 kB/315 kB 50%]54% [6 libbrotli1 163 kB/315 kB 52%]                                    59% [Working]             Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg2-3ubuntu1.2 [20.5 kB]
+59% [7 libsasl2-modules-db 0 B/20.5 kB 0%]                                          61% [Working]             Get:8 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-2 amd64 2.1.27+dfsg2-3ubuntu1.2 [53.8 kB]
+61% [8 libsasl2-2 0 B/53.8 kB 0%]64% [Working]                                                                                                                                     332 kB/s 3s                                                                                                                                                             Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-2.5-0 amd64 2.5.17+dfsg-0ubuntu0.22.04.1 [183 kB]
+64% [9 libldap-2.5-0 0 B/183 kB 0%]                                                                                                               332 kB/s 3s70% [Working]                                                                                                                                     332 kB/s 2s                                                                                                                                                             Get:10 http://archive.ubuntu.com/ubuntu jammy/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build4 [58.2 kB]
+72% [10 librtmp1 46.8 kB/58.2 kB 81%]                                                                                                             332 kB/s 2s73% [Waiting for headers]                                                                                                                         332 kB/s 2s                                                                                                                                                             Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libssh-4 amd64 0.9.6-2ubuntu0.22.04.3 [186 kB]
+75% [11 libssh-4 85.5 kB/186 kB 46%]                                                                                                              332 kB/s 2s79% [Working]                                                                                                                                     332 kB/s 1s                                                                                                                                                             Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libcurl4 amd64 7.81.0-1ubuntu1.16 [290 kB]
+79% [12 libcurl4 0 B/290 kB 0%]                                                                                                                   332 kB/s 1s89% [Working]                                                                                                                                     332 kB/s 0s                                                                                                                                                             Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 curl amd64 7.81.0-1ubuntu1.16 [194 kB]
+89% [13 curl 0 B/194 kB 0%]                                                                                                                       332 kB/s 0s95% [Working]                                                                                                                                     332 kB/s 0s                                                                                                                                                             Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libldap-common all 2.5.17+dfsg-0ubuntu0.22.04.1 [15.8 kB]
+95% [14 libldap-common 15.8 kB/15.8 kB 100%]                                                                                                      332 kB/s 0s                                                                                                                                                             Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libsasl2-modules amd64 2.1.27+dfsg2-3ubuntu1.2 [68.8 kB]
+99% [15 libsasl2-modules 68.8 kB/68.8 kB 100%]                                                                                                    332 kB/s 0s100% [Working]                                                                                                                                    332 kB/s 0s                                                                                                                                                             Fetched 2991 kB in 7s (454 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.15_amd64.deb ...
+Unpacking openssl (3.0.2-0ubuntu1.15) ...
+Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20230311ubuntu0.22.04.1_all.deb ...
+Unpacking ca-certificates (20230311ubuntu0.22.04.1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../02-libnghttp2-14_1.43.0-1ubuntu0.2_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+Selecting previously unselected package libpsl5:amd64.
+Preparing to unpack .../03-libpsl5_0.21.0-1.2build2_amd64.deb ...
+Unpacking libpsl5:amd64 (0.21.0-1.2build2) ...
+Selecting previously unselected package publicsuffix.
+Preparing to unpack .../04-publicsuffix_20211207.1025-1_all.deb ...
+Unpacking publicsuffix (20211207.1025-1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../05-libbrotli1_1.0.9-2build6_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../06-libsasl2-modules-db_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../07-libsasl2-2_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Selecting previously unselected package libldap-2.5-0:amd64.
+Preparing to unpack .../08-libldap-2.5-0_2.5.17+dfsg-0ubuntu0.22.04.1_amd64.deb ...
+Unpacking libldap-2.5-0:amd64 (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../09-librtmp1_2.4+20151223.gitfa8646d.1-2build4_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../10-libssh-4_0.9.6-2ubuntu0.22.04.3_amd64.deb ...
+Unpacking libssh-4:amd64 (0.9.6-2ubuntu0.22.04.3) ...
+Selecting previously unselected package libcurl4:amd64.
+Preparing to unpack .../11-libcurl4_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking libcurl4:amd64 (7.81.0-1ubuntu1.16) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../12-curl_7.81.0-1ubuntu1.16_amd64.deb ...
+Unpacking curl (7.81.0-1ubuntu1.16) ...
+Selecting previously unselected package libldap-common.
+Preparing to unpack .../13-libldap-common_2.5.17+dfsg-0ubuntu0.22.04.1_all.deb ...
+Unpacking libldap-common (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Selecting previously unselected package libsasl2-modules:amd64.
+Preparing to unpack .../14-libsasl2-modules_2.1.27+dfsg2-3ubuntu1.2_amd64.deb ...
+Unpacking libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libpsl5:amd64 (0.21.0-1.2build2) ...
+Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+Setting up libsasl2-modules:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.2) ...
+Setting up libldap-common (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build4) ...
+Setting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...
+Setting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.3) ...
+Setting up openssl (3.0.2-0ubuntu1.15) ...
+Setting up publicsuffix (20211207.1025-1) ...
+Setting up libldap-2.5-0:amd64 (2.5.17+dfsg-0ubuntu0.22.04.1) ...
+Setting up ca-certificates (20230311ubuntu0.22.04.1) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+137 added, 0 removed; done.
+Setting up libcurl4:amd64 (7.81.0-1ubuntu1.16) ...
+Setting up curl (7.81.0-1ubuntu1.16) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.7) ...
+Processing triggers for ca-certificates (20230311ubuntu0.22.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+Input website:
+helsinki.fi
+Searching..
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+Input website:
+helsinki.fi
+Searching..
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+Input website:
+^C[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.4[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.4[00m$ docker run -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex 1.5[K[K[K[K1.5
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ cd ex1.5[3P..docker run -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Aps[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crun -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Acd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Aps[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ckill portfolio [15@rm --force mystifying_greider[Cps[Krun -it ubuntu:22.04 sh -c 'apt-get update && apt-get install curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Apoweroff [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ex1.1part\ 1/[3Pex1.1ls[Kpoweroff docker run -it ubuntu:22.04 sh -c 'apt-get update && apt-get install curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Aps[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm --force mystifying_greider [15Pkill portfolio[Cps[Krun -it ubuntu:22.04 sh -c 'apt-get update && apt-get install -y curl && while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'[Acd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cex1.5[Kscript -a ex1_5log.txt 
+[?2004lScript started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -t [K[Kit lucid_pare sh][K
+[?2004lError response from daemon: No such container: lucid_pare
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug lucid_pare[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker images
+[?2004lREPOSITORY                                      TAG       IMAGE ID       CREATED         SIZE
+backend-image                                   latest    f2f7fab6fd5f   40 hours ago    1.06GB
+<none>                                          <none>    36d975aef3c1   41 hours ago    1.18GB
+frontend-image                                  latest    2facfdf5d8af   41 hours ago    1.18GB
+<none>                                          <none>    fdec96cbf0dd   42 hours ago    1.18GB
+<none>                                          <none>    51d3bc10011b   42 hours ago    1.18GB
+<none>                                          <none>    3407bd7b3c32   42 hours ago    1.18GB
+<none>                                          <none>    428a2a146875   43 hours ago    1.18GB
+<none>                                          <none>    ed6600275440   43 hours ago    1.18GB
+javapp                                          latest    64d50898cff8   43 hours ago    435MB
+<none>                                          <none>    64ef4476bea8   3 days ago      1.18GB
+<none>                                          <none>    fbf6c44a294d   3 days ago      1.18GB
+<none>                                          <none>    02ec155d1d5d   3 days ago      1.18GB
+<none>                                          <none>    29e5f67fb57c   3 days ago      1.06GB
+<none>                                          <none>    9cd8af0e0635   3 days ago      1.06GB
+example-backend                                 latest    1385ccca6428   3 days ago      1.06GB
+example-fullstack                               latest    6920c810bd71   4 days ago      1.16GB
+example-frontend                                latest    1248100b2cdd   4 days ago      1.16GB
+<none>                                          <none>    a910545a9e0d   4 days ago      1.16GB
+<none>                                          <none>    b480d03a9b72   4 days ago      1.16GB
+<none>                                          <none>    bc4e942c4be9   4 days ago      172MB
+yt-dlp                                          latest    8404b872380d   4 days ago      172MB
+curler                                          latest    9bf656d7d31d   4 days ago      137MB
+hellow-docker                                   v2        8491aba5cf79   4 days ago      7.38MB
+hellow-docker                                   latest    09d0e30b4450   4 days ago      7.38MB
+nginx                                           latest    e784f4560448   3 weeks ago     188MB
+ubuntu                                          latest    bf3dc08bfed0   4 weeks ago     76.2MB
+ubuntu                                          22.04     52882761a72a   4 weeks ago     77.9MB
+ghcr.io/esri/arcgis-python-api-notebook         latest    9b5ad7b4c092   6 weeks ago     2.67GB
+docker.elastic.co/elasticsearch/elasticsearch   8.13.2    f175ffdc1293   7 weeks ago     1.24GB
+python                                          3.11      dc33876ad8f2   7 weeks ago     1.01GB
+whatami                                         v1.0      1f597dc0d07b   2 months ago    325MB
+maskimux/whatami                                latest    1f597dc0d07b   2 months ago    325MB
+mysql                                           latest    6f343283ab56   2 months ago    632MB
+zunun-content-management-system                 latest    75568224ff05   6 months ago    1.01GB
+<none>                                          <none>    da2211538128   6 months ago    1.01GB
+<none>                                          <none>    8d12e0378493   6 months ago    1.01GB
+<none>                                          <none>    c8231df6624f   6 months ago    1.01GB
+ubuntu                                          <none>    e4c58958181a   7 months ago    77.8MB
+hello-world                                     latest    9c7a54a9a43c   12 months ago   13.3kB
+tonistiigi/binfmt                               latest    354472a37893   22 months ago   60.2MB
+devopsdockeruh/simple-web-service               ubuntu    4e3362e907d5   3 years ago     83MB
+web-server                                      latest    e10a04f0292d   3 years ago     15.7MB
+devopsdockeruh/simple-web-service               alpine    fd312adc88e0   3 years ago     15.7MB
+devopsdockeruh/simple-web-service               latest    99f995eeaa58   3 years ago     10.1MB
+vizzuality/arcgis                               latest    b2058ebf3000   3 years ago     675MB
+devopsdockeruh/pull_exercise                    latest    d9854bc0e13a   5 years ago     75.3MB
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docke [Kr conr[Ktainer -[K[Ks
+[?2004ldocker: 'containers' is not a docker command.
+See 'docker --help'
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ cleardocker containers[K ls
+[?2004lCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker container ls[K[K[K[K[K[K[K[K[K[K[K[Kps -a
+[?2004lCONTAINER ID   IMAGE                             COMMAND                  CREATED         STATUS                       PORTS     NAMES
+d24ffe169f36   ubuntu:22.04                      "sh -c 'apt-get upda…"   5 minutes ago   Exited (130) 3 minutes ago             tender_jones
+22386a57741e   ubuntu:22.04                      "sh -c 'apt-get upda…"   7 minutes ago   Exited (130) 6 minutes ago             elegant_swirles
+35de01ef906d   maskimux/whatami:latest           "docker-entrypoint.s…"   18 hours ago    Exited (137) 5 minutes ago             portfolio
+83528ba4baba   whatami:v1.0                      "docker-entrypoint.s…"   18 hours ago    Exited (137) 18 hours ago              nifty_noyce
+b81a4de24b6d   backend-image                     "./server"               40 hours ago    Exited (137) 18 hours ago              busy_hertz
+37e43701b164   frontend-image                    "docker-entrypoint.s…"   40 hours ago    Exited (0) 40 hours ago                quizzical_kalam
+c56e44bdf29b   frontend-image                    "docker-entrypoint.s…"   40 hours ago    Exited (0) 40 hours ago                nice_heisenberg
+22b1ca135818   frontend-image                    "docker-entrypoint.s…"   41 hours ago    Exited (0) 41 hours ago                beautiful_feistel
+f9612c77cd3b   javapp                            "java -jar ./target/…"   43 hours ago    Exited (143) 19 hours ago              goofy_leavitt
+2af43950f39f   web-server                        "/usr/src/app/server…"   2 days ago      Exited (2) 44 hours ago                practical_haibt
+38502e18e283   web-server                        "/usr/src/app/server…"   2 days ago      Exited (2) 2 days ago                  keen_villani
+145222603b04   ubuntu:22.04                      "sh -c 'apt-get upda…"   2 days ago      Exited (130) 2 days ago                agitated_driscoll
+0113524ef97d   9cd8af0e0635                      "./server"               3 days ago      Exited (2) 41 hours ago                tender_cray
+ffd616471da7   02ec155d1d5d                      "docker-entrypoint.s…"   3 days ago      Exited (0) 3 days ago                  keen_driscoll
+d2908c4afd6f   29e5f67fb57c                      "./server"               3 days ago      Created                                bold_allen
+3846730e6236   b480d03a9b72                      "docker-entrypoint.s…"   3 days ago      Created                                eager_chebyshev
+2f147433e8e9   python:3.11                       "bash"                   4 days ago      Exited (0) 4 days ago                  trusting_proskuriakova
+c9703a2341b5   python:3.11                       "--version"              4 days ago      Created                                adoring_booth
+3320b0142c3f   python:3.11                       "python3"                4 days ago      Exited (0) 4 days ago                  magical_ritchie
+7bdb039fde8f   yt-dlp                            "/usr/local/bin/yt-d…"   4 days ago      Exited (0) 4 days ago                  practical_lehmann
+a5b1e11b8d1a   bc4e942c4be9                      "https://www.youtube…"   4 days ago      Created                                recursing_hellman
+a58a53324267   bc4e942c4be9                      "pwd"                    4 days ago      Exited (0) 4 days ago                  competent_elbakyan
+4b40d7705e15   bc4e942c4be9                      "ls -l"                  4 days ago      Exited (0) 4 days ago                  reverent_rhodes
+211b473e356f   bc4e942c4be9                      "ps"                     4 days ago      Exited (0) 4 days ago                  kind_zhukovsky
+def5457880ed   bc4e942c4be9                      "https://www.youtube…"   4 days ago      Created                                sweet_meninsky
+9eee22d615e5   bc4e942c4be9                      "/usr/local/bin/yt-d…"   4 days ago      Exited (2) 4 days ago                  beautiful_taussig
+74f8ef94d1e2   bc4e942c4be9                      "/usr/local/bin/yt-d…"   4 days ago      Exited (2) 4 days ago                  elegant_nash
+8b136ec6c903   curler                            "/bin/sh -c ./script…"   4 days ago      Exited (130) 4 days ago                gallant_cori
+660720be03af   hellow-docker:v2                  "ls"                     4 days ago      Exited (0) 4 days ago                  stoic_wright
+7bae7953ec9d   hellow-docker                     "ls"                     4 days ago      Exited (0) 4 days ago                  happy_saha
+0d556719e345   hellow-docker                     "sh"                     4 days ago      Exited (0) 4 days ago                  intelligent_solomon
+fd7b1a3c91fd   0f2174db623c                      "sh"                     4 days ago      Exited (137) 4 days ago                beautiful_burnell
+196738b8df1c   0f2174db623c                      "/bin/sh -c ./hello.…"   4 days ago      Exited (0) 4 days ago                  stupefied_dijkstra
+7db73820c920   0f2174db623c                      "/bin/sh -c ./hello.…"   4 days ago      Exited (0) 4 days ago                  zealous_burnell
+f2bcce28edf2   e4c58958181a                      "sh -c 'while true; …"   4 days ago      Exited (130) 4 days ago                looper
+bd74a515dfdf   e4c58958181a                      "/bin/bash"              4 days ago      Exited (0) 4 days ago                  trusting_brown
+38d675b52403   nginx                             "/docker-entrypoint.…"   4 days ago      Exited (0) 4 days ago                  romantic_stonebraker
+86b893fe60e6   nginx                             "/docker-entrypoint.…"   4 days ago      Exited (0) 4 days ago                  funny_murdock
+3b7d539bcdf0   nginx                             "/docker-entrypoint.…"   4 days ago      Exited (0) 4 days ago                  dreamy_blackburn
+721ee4384611   hello-world                       "/hello"                 5 days ago      Exited (0) 5 days ago                  laughing_wozniak
+b141c11fa196   hello-world                       "/hello"                 5 days ago      Exited (0) 5 days ago                  sharp_nightingale
+c0200bc3b00a   mysql:latest                      "docker-entrypoint.s…"   5 weeks ago     Exited (0) 5 weeks ago                 mysql
+00ba1a3728f0   mysql:latest                      "docker-entrypoint.s…"   5 weeks ago     Exited (1) 5 weeks ago                 mysqll
+d56fcd57b4ee   mysql                             "docker-entrypoint.s…"   5 weeks ago     Exited (1) 5 weeks ago                 test-mysql
+011977378e25   whatami:v1.0                      "docker-entrypoint.s…"   2 months ago    Created                                naughty_tharp
+689a0e7cee73   whatami:v1.0                      "docker-entrypoint.s…"   2 months ago    Exited (137) 2 months ago              quirky_golick
+b84457e57557   zunun-content-management-system   "/home/godd/Desktop/…"   6 months ago    Created                                funny_antonelli
+a9436581eafa   da2211538128                      "app/main"               6 months ago    Created                                confident_curie
+f101591ed3ee   8d12e0378493                      "/main"                  6 months ago    Created                                youthful_dirac
+726b13e026fa   hello-world                       "/hello"                 6 months ago    Exited (0) 6 months ago                silly_tharp
+d872f719a6f5   e4c58958181a                      "/bin/bash"              6 months ago    Exited (130) 6 months ago              youthful_mclean
+16559cd977c7   hello-world                       "/hello"                 6 months ago    Exited (0) 6 months ago                vigorous_moser
+2a2eba502ee8   c8231df6624f                      "./main"                 6 months ago    Created                                sharp_gauss
+c6e17040b11d   c8231df6624f                      "Docker-user"            6 months ago    Created                                focused_mccarthy
+223cfe3bf900   c8231df6624f                      "./main"                 6 months ago    Created                                gracious_wright
+f2180b842969   hello-world                       "/hello"                 6 months ago    Exited (0) 6 months ago                musing_aryabhata
+b9fdf9fd0f11   hello-world                       "/hello"                 6 months ago    Exited (0) 19 hours ago                great_rhodes
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker ru [Kn -it [K[K[K[K[7mdocker run -it --name my_container image_name /bin/sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it --name my_container image_name /bin/sh[C[C[C[C[C[1Psh[1Psh[1Psh[1Psh[1Psh[9P[3P[1@a[1@l[1@p[1@i[1@n[1@e[1@_[1@s[1@e[1@c[1@r[1@e[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[4P sh[6P shd she shvopsdockeruh/ shs shi shmple-web-service sh: sha shl shp shi shn she sh
+[?2004l
+		
+		The application accepts 1 argument "server". Use the argument server to run the server
+
+		If no arguments are supplied the application will output log strings to a file.
+
+		
+Arguments given: sh
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ do[K[Kdocker[K[K[K[K[K[Kscript ex1_5log.txt 
+[?2004lScript started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ [7mdocker run -it --name alpine_secret devopsdockeruh/simple-web-service:alpine[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run -it --name alpine_secret devopsdockeruh/simple-web-service:alpine
+[?2004ldocker: Error response from daemon: Conflict. The container name "/alpine_secret" is already in use by container "f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker run -it --name alpine_secret devopsdockeruh/simple-web-service:alpine[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpoweroff [Kls[Kpoweroff docker run -it --name alpine_secret devopsdockeruh/simple-web-service:alpine[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdocker run -it --name alpine_secret devopsdockeruh/simple-web-service:alpine[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kscript ex1_5log.txt 
+[?2004lScript started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ poweroff ls[Kcd ex1.1ls[Kpoweroff [Kpoweroff ls[Kcd ex1.1part\ 1/ls[Kcd Documents/dockermooc/[15Ppoweroff cd Documents/dockermooc/ls[Kcd part\ 1/[3Pex1.1ls[Kpoweroff [Kdocker stat[Krt alpine_secret 
+[?2004lalpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine[Ke_secret sh
+[?2004lError response from daemon: container f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c is not running
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret sh[Kdocker exec -it alpine_secret sh[5Pstart alpine_secret [18Ppoweroff[C[18@docker start alpine_secret[C
+[?2004lalpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker start alpine_secret exec -it alpine_secret sh
+[?2004lError response from daemon: container f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c is not running
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ cleardocker exec -it alpine_secret sh[5Pstart alpine_secret exec -it alpine_secret sh[5Pstart alpine_secret [1P[1P[1P[1P[1P[1@i[1@n[1@s[1@p[1@e[1@c[1@t
+[?2004l[
+    {
+        "Id": "f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c",
+        "Created": "2024-05-28T05:48:06.355747681Z",
+        "Path": "/usr/src/app/server",
+        "Args": [
+            "sh"
+        ],
+        "State": {
+            "Status": "exited",
+            "Running": false,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2024-05-28T05:50:14.495092878Z",
+            "FinishedAt": "2024-05-28T05:50:14.509734719Z"
+        },
+        "Image": "sha256:fd312adc88e08116713c2c47a0581b19987c35781ded55e1601a6e592b93cff8",
+        "ResolvConfPath": "/var/lib/docker/containers/f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c/hostname",
+        "HostsPath": "/var/lib/docker/containers/f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c/hosts",
+        "LogPath": "/var/lib/docker/containers/f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c/f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c-json.log",
+        "Name": "/alpine_secret",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                36,
+                158
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/58d2d5df22558986a161a9d3b4785dc87df947403410f19794f75484319214cb-init/diff:/var/lib/docker/overlay2/593363f510133b26fedac473a2041ea541105bb95f6903bc632b04a9a23f0ec5/diff:/var/lib/docker/overlay2/071a2d9ebfe8cff0cfbf2dbacc0970f5f4435f1c14b9c77e3deea4ee45ce57fc/diff:/var/lib/docker/overlay2/aa9d1e58b6185007621deff5628545c60bb8f1da28ea5de66c29b617ffc9f837/diff",
+                "MergedDir": "/var/lib/docker/overlay2/58d2d5df22558986a161a9d3b4785dc87df947403410f19794f75484319214cb/merged",
+                "UpperDir": "/var/lib/docker/overlay2/58d2d5df22558986a161a9d3b4785dc87df947403410f19794f75484319214cb/diff",
+                "WorkDir": "/var/lib/docker/overlay2/58d2d5df22558986a161a9d3b4785dc87df947403410f19794f75484319214cb/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "f4af98480d03",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": true,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": true,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": [
+                "sh"
+            ],
+            "Image": "devopsdockeruh/simple-web-service:alpine",
+            "Volumes": null,
+            "WorkingDir": "/usr/src/app/",
+            "Entrypoint": [
+                "/usr/src/app/server"
+            ],
+            "OnBuild": null,
+            "Labels": {}
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "bf91d4ba9d67436120c2b1acb472ef7943858486ef2be75a26d72b3baee8a93a",
+            "SandboxKey": "/var/run/docker/netns/bf91d4ba9d67",
+            "Ports": {},
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "MacAddress": "",
+                    "NetworkID": "0d9715e9a2b05e00368e8a2236276079fba1fcb000f208f9361f24923289e00c",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DriverOpts": null,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker ps -a
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                  CREATED          STATUS                        PORTS     NAMES
+f4af98480d03   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server…"   2 minutes ago    Exited (0) 38 seconds ago               alpine_secret
+d24ffe169f36   ubuntu:22.04                               "sh -c 'apt-get upda…"   10 minutes ago   Exited (130) 9 minutes ago              tender_jones
+22386a57741e   ubuntu:22.04                               "sh -c 'apt-get upda…"   13 minutes ago   Exited (130) 12 minutes ago             elegant_swirles
+35de01ef906d   maskimux/whatami:latest                    "docker-entrypoint.s…"   18 hours ago     Exited (137) 11 minutes ago             portfolio
+83528ba4baba   whatami:v1.0                               "docker-entrypoint.s…"   18 hours ago     Exited (137) 18 hours ago               nifty_noyce
+b81a4de24b6d   backend-image                              "./server"               40 hours ago     Exited (137) 18 hours ago               busy_hertz
+37e43701b164   frontend-image                             "docker-entrypoint.s…"   40 hours ago     Exited (0) 40 hours ago                 quizzical_kalam
+c56e44bdf29b   frontend-image                             "docker-entrypoint.s…"   40 hours ago     Exited (0) 40 hours ago                 nice_heisenberg
+22b1ca135818   frontend-image                             "docker-entrypoint.s…"   41 hours ago     Exited (0) 41 hours ago                 beautiful_feistel
+f9612c77cd3b   javapp                                     "java -jar ./target/…"   43 hours ago     Exited (143) 20 hours ago               goofy_leavitt
+2af43950f39f   web-server                                 "/usr/src/app/server…"   2 days ago       Exited (2) 44 hours ago                 practical_haibt
+38502e18e283   web-server                                 "/usr/src/app/server…"   2 days ago       Exited (2) 2 days ago                   keen_villani
+145222603b04   ubuntu:22.04                               "sh -c 'apt-get upda…"   2 days ago       Exited (130) 2 days ago                 agitated_driscoll
+0113524ef97d   9cd8af0e0635                               "./server"               3 days ago       Exited (2) 41 hours ago                 tender_cray
+ffd616471da7   02ec155d1d5d                               "docker-entrypoint.s…"   3 days ago       Exited (0) 3 days ago                   keen_driscoll
+d2908c4afd6f   29e5f67fb57c                               "./server"               3 days ago       Created                                 bold_allen
+3846730e6236   b480d03a9b72                               "docker-entrypoint.s…"   3 days ago       Created                                 eager_chebyshev
+2f147433e8e9   python:3.11                                "bash"                   4 days ago       Exited (0) 4 days ago                   trusting_proskuriakova
+c9703a2341b5   python:3.11                                "--version"              4 days ago       Created                                 adoring_booth
+3320b0142c3f   python:3.11                                "python3"                4 days ago       Exited (0) 4 days ago                   magical_ritchie
+7bdb039fde8f   yt-dlp                                     "/usr/local/bin/yt-d…"   4 days ago       Exited (0) 4 days ago                   practical_lehmann
+a5b1e11b8d1a   bc4e942c4be9                               "https://www.youtube…"   4 days ago       Created                                 recursing_hellman
+a58a53324267   bc4e942c4be9                               "pwd"                    4 days ago       Exited (0) 4 days ago                   competent_elbakyan
+4b40d7705e15   bc4e942c4be9                               "ls -l"                  4 days ago       Exited (0) 4 days ago                   reverent_rhodes
+211b473e356f   bc4e942c4be9                               "ps"                     4 days ago       Exited (0) 4 days ago                   kind_zhukovsky
+def5457880ed   bc4e942c4be9                               "https://www.youtube…"   4 days ago       Created                                 sweet_meninsky
+9eee22d615e5   bc4e942c4be9                               "/usr/local/bin/yt-d…"   4 days ago       Exited (2) 4 days ago                   beautiful_taussig
+74f8ef94d1e2   bc4e942c4be9                               "/usr/local/bin/yt-d…"   4 days ago       Exited (2) 4 days ago                   elegant_nash
+8b136ec6c903   curler                                     "/bin/sh -c ./script…"   4 days ago       Exited (130) 4 days ago                 gallant_cori
+660720be03af   hellow-docker:v2                           "ls"                     4 days ago       Exited (0) 4 days ago                   stoic_wright
+7bae7953ec9d   hellow-docker                              "ls"                     4 days ago       Exited (0) 4 days ago                   happy_saha
+0d556719e345   hellow-docker                              "sh"                     4 days ago       Exited (0) 4 days ago                   intelligent_solomon
+fd7b1a3c91fd   0f2174db623c                               "sh"                     4 days ago       Exited (137) 4 days ago                 beautiful_burnell
+196738b8df1c   0f2174db623c                               "/bin/sh -c ./hello.…"   4 days ago       Exited (0) 4 days ago                   stupefied_dijkstra
+7db73820c920   0f2174db623c                               "/bin/sh -c ./hello.…"   4 days ago       Exited (0) 4 days ago                   zealous_burnell
+f2bcce28edf2   e4c58958181a                               "sh -c 'while true; …"   4 days ago       Exited (130) 4 days ago                 looper
+bd74a515dfdf   e4c58958181a                               "/bin/bash"              4 days ago       Exited (0) 4 days ago                   trusting_brown
+38d675b52403   nginx                                      "/docker-entrypoint.…"   4 days ago       Exited (0) 4 days ago                   romantic_stonebraker
+86b893fe60e6   nginx                                      "/docker-entrypoint.…"   4 days ago       Exited (0) 4 days ago                   funny_murdock
+3b7d539bcdf0   nginx                                      "/docker-entrypoint.…"   4 days ago       Exited (0) 4 days ago                   dreamy_blackburn
+721ee4384611   hello-world                                "/hello"                 5 days ago       Exited (0) 5 days ago                   laughing_wozniak
+b141c11fa196   hello-world                                "/hello"                 5 days ago       Exited (0) 5 days ago                   sharp_nightingale
+c0200bc3b00a   mysql:latest                               "docker-entrypoint.s…"   5 weeks ago      Exited (0) 5 weeks ago                  mysql
+00ba1a3728f0   mysql:latest                               "docker-entrypoint.s…"   5 weeks ago      Exited (1) 5 weeks ago                  mysqll
+d56fcd57b4ee   mysql                                      "docker-entrypoint.s…"   5 weeks ago      Exited (1) 5 weeks ago                  test-mysql
+011977378e25   whatami:v1.0                               "docker-entrypoint.s…"   2 months ago     Created                                 naughty_tharp
+689a0e7cee73   whatami:v1.0                               "docker-entrypoint.s…"   2 months ago     Exited (137) 2 months ago               quirky_golick
+b84457e57557   zunun-content-management-system            "/home/godd/Desktop/…"   6 months ago     Created                                 funny_antonelli
+a9436581eafa   da2211538128                               "app/main"               6 months ago     Created                                 confident_curie
+f101591ed3ee   8d12e0378493                               "/main"                  6 months ago     Created                                 youthful_dirac
+726b13e026fa   hello-world                                "/hello"                 6 months ago     Exited (0) 6 months ago                 silly_tharp
+d872f719a6f5   e4c58958181a                               "/bin/bash"              6 months ago     Exited (130) 6 months ago               youthful_mclean
+16559cd977c7   hello-world                                "/hello"                 6 months ago     Exited (0) 6 months ago                 vigorous_moser
+2a2eba502ee8   c8231df6624f                               "./main"                 6 months ago     Created                                 sharp_gauss
+c6e17040b11d   c8231df6624f                               "Docker-user"            6 months ago     Created                                 focused_mccarthy
+223cfe3bf900   c8231df6624f                               "./main"                 6 months ago     Created                                 gracious_wright
+f2180b842969   hello-world                                "/hello"                 6 months ago     Exited (0) 6 months ago                 musing_aryabhata
+b9fdf9fd0f11   hello-world                                "/hello"                 6 months ago     Exited (0) 20 hours ago                 great_rhodes
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ socker [K[K[K[K[K[K[Kdoce[Kker start alpine_secret && docker exec -it alpine_secret sh
+[?2004lalpine_secret
+Error response from daemon: container f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c is not running
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker start alpine_secret && docker exec -it alpine_secret sh[1@r[1@e
+[?2004lalpine_secret
+Error response from daemon: container f4af98480d036dd13c9ad7fea814d28cfb836cedb5bc7b622e196dd942661e8c is not running
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker restart alpine_secret && docker exec -it alpine_secret sh[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[C[1@ [1@r[1@u[1@n
+[?2004lUnable to find image 'alpine_secret:latest' locally
+^C[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker rm --rf[K[K[K-force alpine_secret 
+[?2004lalpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker rm --force alpine_secret clear[Kdocker run alpine_secret && docker exec -it alpine_secret sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@estart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -a[Kstart alpine_secret && docker exec -it alpine_secret sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cps -a[Kinspect alpine_secret clear[Kdocker inspect alpine_secret ps -a[Kstart alpine_secret && docker exec -it alpine_secret sh[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@r[1@u[1@n[C[1@ [1@d[1@o[43@cker.elastic.co/elasticsearch/elasticsearch[13P[14P[3P[8P[7P[1@d[1@e[13@vopsdockeruh/[1@s[1@i[16@mple-web-service[1@:[1@a[1@l[1@p[3@ine[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@-[1@n[1@a[1@m[1@e[C[1@ [1@a[1@l[1@p[1@i[1@n[1@e[C[1@ [1P[1@_[1@s[1@e[1@c[1@t[1P[1@r[1@e[1@t
+[?2004lStarting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^Z
+[1]+  Stopped                 docker run --name alpine_secret devopsdockeruh/simple-web-service:alpine
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ Wrote text to /usr/src/app/text.log
+^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ Wrote text to /usr/src/app/text.log
+^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ doWrote text to /usr/src/app/text.log
+ckWrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ cleae
+[?2004lCommand 'cleae' not found, did you mean:
+  command 'clear' from deb ncurses-bin (6.4+20230625-2)
+Try: sudo apt install <deb name>
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ cleae[Kr
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clearedocker run --name alpine_secret devopsdockeruh/simple-web-service:alpine && docker exec -it alpine_secret sh[C[K[K[K[K[K[K[Kalpine 
+[?2004ldocker: Error response from daemon: Conflict. The container name "/alpine_secret" is already in use by container "b68776079d01dc8b314aa71e2169a2d1c80589dbb57b7a08b1ca0e0c9ce464f4". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker start alpine_secret 
+[?2004lalpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker ps
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                 CREATED              STATUS         PORTS     NAMES
+b68776079d01   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   About a minute ago   Up 2 seconds             alpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker e[K[K[K[K[K[K[K[Kdocker psstart alpine_secret [46@run --name alpine_secret devopsdockeruh/simple-web-service:alpine[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[Kedocker run --name alpine_secret devopsdockeruh/simple-web-service:alpine && docker exec -it alpine_secret sh[C[C[10P[8P[4P[7P[15P[7P[7P[5P[6P[7P
+[?2004l/usr/src/app # [6nt[Jtail -f ./text.log
+2024-05-28 05:54:42 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:54:44 +0000 UTC
+2024-05-28 05:54:46 +0000 UTC
+2024-05-28 05:54:48 +0000 UTC
+2024-05-28 05:54:50 +0000 UTC
+2024-05-28 05:54:52 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:54:54 +0000 UTC
+2024-05-28 05:54:56 +0000 UTC
+2024-05-28 05:54:58 +0000 UTC
+2024-05-28 05:55:00 +0000 UTC
+^Z[1]+  Stopped                    tail -f ./text.log
+/usr/src/app # [6nexit
+You have stopped jobs.
+/usr/src/app # [6nexit
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ scropt[K[K[Kipt s[K-a ex1_5log.txt 
+[?2004lScript started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ poweroff ls[Kcd ex1.1part\ 1/ls[Kcd Documents/dockermooc/[15Ppoweroff git log -1push origin HEAD commit -m "chore: made number of attempts in test to be taken from the config.json file for convention later on" [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush origin HEAD [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Plog -1[1Ppoweroff cd Documents/dockermooc/ls[Kcd part\ 1/[3Pex1.1ls[Kpoweroff [Kdocker ps
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS              PORTS     NAMES
+b68776079d01   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   2 minutes ago   Up About a minute             alpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret 
+[?2004l"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Execute a command in a running container
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ docker exec -it alpine_secret ps[Kpoweroff docker psexec -it alpine_secret [K[7m script -a ex1_5log.txt [27m script -a ex1_5log.txt 
+[?2004lScript started, output log file is 'ex1_5log.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ poweroff ls[Kcd ex1.1ls[Kpoweroff [Kdocekr [K[K[K[Kker ps
+[?2004lCONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+b68776079d01   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   3 minutes ago   Up 2 minutes             alpine_secret
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ dV[K[7mocker exec -it alpine_secret [27mocker exec -it alpine_secret sh
+[?2004l/usr/src/app # [6ntail ./lo[J[Jtext.log
+2024-05-28 05:56:40 +0000 UTC
+2024-05-28 05:56:42 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:56:44 +0000 UTC
+2024-05-28 05:56:46 +0000 UTC
+2024-05-28 05:56:48 +0000 UTC
+2024-05-28 05:56:50 +0000 UTC
+2024-05-28 05:56:52 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-05-28 05:56:54 +0000 UTC
+/usr/src/app # [6nex[J[J^C
+/usr/src/app # [6nexit 
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug alpine_secret[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.5[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.5[00m$ e[Kcd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.6
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.6[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.6[00m$ script do[K[K-a ex1>[K_6.txt -c ''d'o'c'k'e'r' 'r'u'n' '-'i't' 'd'e'v'o'p's'/'[1P'd'o'c'k'e'r'u'h'/'p'u'l'l'_'e'x'e'r'c'i's'e'
+[?2004lScript started, output log file is 'ex1_6.txt'.
+[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+Script done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.6[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.6[00m$ docker =[K[K[K[K[K[K[K[Kcd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.8
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ c[Kcd ex1.8[3P..script -a ex1_6.txt -c 'docker run -it devopsdockeruh/pull_exercise'[1P[1@8[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K
+[?2004lScript started, output log file is 'ex1_8.txt'.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ nano DOcke[K[K[K[Kockerfile
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;74H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                              Dockerfile                                                                        [1;157H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;88H(B[0;7m*[34d(B[m[K[1;157H[2dFROM devopsdockeruh/simple-web-service:alpine[4dCMD ["server"][?12l[?25h[?25l[35;18H[22X[35;40H(B[0;7mM-D(B[m DOS Format    [35;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[36;18H[22X[36;40H(B[0;7mM-M(B[m Mac Format      [36;69H          (B[0;7mM-P(B[m Prepend[21X[36;118H(B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: Dockerfile                                                                                                                                [34;31H(B[m[?12l[?25h[?25l[34;72H[1K (B[0;7m[ Writing... ](B[m[K[1;88H(B[0;7m [157G(B[m[34;71H(B[0;7m[ Wrote 3 lines ](B[m[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[118G  (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify       (B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[118G  (B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[?12l[?25h[4;15H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker bult[K[Kild -t websercer[K[K[Kver .
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                                                                                                        docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (5/5) FINISHED                                                                                                               docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                     0.0s
+[0m[34m => => transferring dockerfile: 99B                                                                                                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-service:alpine                                                                      0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                        0.0s
+[0m[34m => => transferring context: 2B                                                                                                                          0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine                                                                                 0.0s
+[0m[34m => exporting to image                                                                                                                                   0.0s
+[0m[34m => => exporting layers                                                                                                                                  0.0s
+[0m[34m => => writing image sha256:e10a04f0292d811eb02da7d6526d1e215c8b8e62aa36cc69177ca4d072cee933                                                             0.0s
+[0m[34m => => naming to docker.io/library/webserver                                                                                                             0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/default/default/t6lqrjy2exjja1yj0cvmnnwsr\docker-desktop://dashboard/build/default/default/t6lqrjy2exjja1yj0cvmnnwsr]8;;\
+[1m
+What's Next?
+[0m  View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview[0m
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker run webserver
+[?2004l[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^Z
+[1]+  Stopped                 docker run webserver
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker run webserverbuild -t webserver .[12Pnano Dockerfile[6Ppoweroff ls[Kpoweroff nano Dockerfiledocker build -t webserver .[7Prun webserver[Kdocker run webserverbuild -t webserver .[7Prun webserver[Kscript -a ex1_8.txt -c ''n'a'n'o' 'D'O'c'[1P'[1P'o'c'k'e'r'f'i'l'e' '&'&' 'd'o'c'k'e'r' 'b'u'i'l'd' '-'t' 'w'e'b's'e'r'v'e'r'.'[1P' ';'[1P'.' '[1P' '[1P' '&'&' 'd'o'c'k'e'r' 'r'u'n' 'e'[1P'w'e'b's'e'r'v'e'r'
+[?2004lScript started, output log file is 'ex1_8.txt'.
+[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;74H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                              Dockerfile                                                                        [1;157H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;88H(B[0;7m*[34d(B[m[K[1;157H[2dFROM devopsdockeruh/simple-web-service:alpine[4dCMD ["server"][?12l[?25h[?25l[35;18H[22X[35;40H(B[0;7mM-D(B[m DOS Format    [35;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[36;18H[22X[36;40H(B[0;7mM-M(B[m Mac Format      [36;69H          (B[0;7mM-P(B[m Prepend[21X[36;118H(B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: Dockerfile                                                                                                                                [34;31H(B[m[?12l[?25h[?25l[34;72H[1K (B[0;7m[ Writing... ](B[m[K[1;88H(B[0;7m [157G(B[m[34;71H(B[0;7m[ Wrote 3 lines ](B[m[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[118G  (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify       (B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[118G  (B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[?12l[?25h[4;15H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                                                                                                        docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (5/5) FINISHED                                                                                                               docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                     0.0s
+[0m[34m => => transferring dockerfile: 99B                                                                                                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-service:alpine                                                                      0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                        0.0s
+[0m[34m => => transferring context: 2B                                                                                                                          0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine                                                                                 0.0s
+[0m[34m => exporting to image                                                                                                                                   0.0s
+[0m[34m => => exporting layers                                                                                                                                  0.0s
+[0m[34m => => writing image sha256:e10a04f0292d811eb02da7d6526d1e215c8b8e62aa36cc69177ca4d072cee933                                                             0.0s
+[0m[34m => => naming to docker.io/library/webserver                                                                                                             0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj\docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj]8;;\
+[1m
+What's Next?
+[0m  View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview[0m
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ cd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.9
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ cd ex1.9[3P..script -a ex1_8.txt -c 'nano Dockerfile && docker build -t webserver . && docker run webserver'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run webserver[Kscript -a ex1_8.txt -c 'nano Dockerfile && docker build -t webserver . && docker run webserver'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K'[K'[K'[K[2P''[K[1P''[K'[K[1P'[1P'[1P'[1P'[1P'[K[C'd'o'c'k'e'r' 'r'u'n' '-'v' '"'"'[C$"'("')"'p)"'w)"'d)"'[C/"'e"'x"'1"'."'9"':"'/"'a"'p"'p"'[C 'd'e'v'e'o'p's'd'o'c'k'e'r'u'h'/'s'i'm'p'l'e'-'w'e'b's'e'v'[1P'r'c'i'[1P'[1P'v'i'c'e':'a';'[1P'l'p'i'n'e'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Unable to find image 'deveopsdockeruh/simple-webservice:alpine' locally
+docker: Error response from daemon: pull access denied for deveopsdockeruh/simple-webservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+Script done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" deveopsdockeruh/simple-webservice:alpine'[C[C[C[C[C[C[1Popsdockeruh/simple-webservice:alpine'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Unable to find image 'devopsdockeruh/simple-webservice:alpine' locally
+docker: Error response from daemon: pull access denied for devopsdockeruh/simple-webservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+Script done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" devopsdockeruh/simple-webservice:alpine'-service:alpine'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^ZWrote text to /usr/src/app/text.log
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ cd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.10
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ cd ex1.10[4P..script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" devopsdockeruh/simple-web-service:alpine''[K'[K'[K'[K'[K'[K'[K'[K'[K'[K'[Kr'u'n' '-'p' 'e'[1P'w'e'n'[1P'b'-'s'e'r'v'e'r'[1P[1@1[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C web-server'8 web-server'0 web-server'8 web-server'0 web-server': web-server'8 web-server'0 web-server'8 web-server'0 web-server'
+[?2004lScript started, output log file is 'ex1_10.txt'.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/05/28 - 06:13:34 | 200 |     101.368µs |      172.17.0.1 | GET      "/"
+[GIN] 2024/05/28 - 06:13:34 | 200 |     117.333µs |      172.17.0.1 | GET      "/favicon.ico"
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ script -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ cd ex1.10[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.11
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ cd ex1.11[4P..script -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt -c 'docker run -p[1P[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.txt -c 'docker run -[1@p[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt -c 'docker run -p[1P[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txt -c 'docker run -[1@p[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K'[K'[K[C[C[C'[K[2P'[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr'u'n' [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'[1P'b'u'i' [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl'd' '-'t' 'j'a'v'a'a'p'p' '.' '&'&' 'd'o'c'k'e'r' 'r'u'n' '-'p' '8'0'8'0':'8'0'8'0' 'j'a'c'a'[1P'[1P'v'a'p'p'[Capp'
+[?2004lScript started, output log file is 'ex1_11.txt'.
+[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                         docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.8s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.9s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.1s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.1s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (1/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.2s
+ => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.4s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.4s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.5s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.5s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.7s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.7s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.8s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.8s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.0s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.0s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.1s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.1s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.3s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.3s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.4s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.4s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.6s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.6s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.7s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.7s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.9s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.9s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.0s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.0s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.2s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.2s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.3s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.3s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.5s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.5s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.6s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.6s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.8s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.8s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.9s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.9s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.1s (3/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.2s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.3s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.5s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.5s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.4s
+[2m => => # /bin/sh: ./mvnw: No such file or directory                           
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.6s (9/9) FINISHED                                docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m[31m => ERROR [4/4] RUN ./mvnw package                                        0.4s
+[0m                                                                               
+[1A[0G[?25h------
+ > [4/4] RUN ./mvnw package:
+0.374 /bin/sh: ./mvnw: No such file or directory
+------
+Dockerfile:9
+--------------------
+   7 |     COPY . .
+   8 |     
+   9 | >>> RUN ./mvnw package
+  10 |     
+  11 |     
+------

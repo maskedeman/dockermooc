@@ -1,0 +1,13 @@
+Script started on 2024-05-28 11:58:07+05:45 [COMMAND="docker run -p 8080:8080 web-server" TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="158" LINES="36"]
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/05/28 - 06:13:34 | 200 |     101.368µs |      172.17.0.1 | GET      "/"
+[GIN] 2024/05/28 - 06:13:34 | 200 |     117.333µs |      172.17.0.1 | GET      "/favicon.ico"
+^C
+Script done on 2024-05-28 11:58:43+05:45 [COMMAND_EXIT_CODE="2"]

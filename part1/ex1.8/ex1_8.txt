@@ -1,0 +1,355 @@
+Script started on 2024-05-28 11:47:05+05:45 [TERM="xterm-256color" TTY="/dev/pts/12" COLUMNS="158" LINES="36"]
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ nano DOcke[K[K[K[Kockerfile
+[?2004l[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;74H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                              Dockerfile                                                                        [1;157H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;88H(B[0;7m*[34d(B[m[K[1;157H[2dFROM devopsdockeruh/simple-web-service:alpine[4dCMD ["server"][?12l[?25h[?25l[35;18H[22X[35;40H(B[0;7mM-D(B[m DOS Format    [35;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[36;18H[22X[36;40H(B[0;7mM-M(B[m Mac Format      [36;69H          (B[0;7mM-P(B[m Prepend[21X[36;118H(B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: Dockerfile                                                                                                                                [34;31H(B[m[?12l[?25h[?25l[34;72H[1K (B[0;7m[ Writing... ](B[m[K[1;88H(B[0;7m [157G(B[m[34;71H(B[0;7m[ Wrote 3 lines ](B[m[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[118G  (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify       (B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[118G  (B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[?12l[?25h[4;15H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker bult[K[Kild -t websercer[K[K[Kver .
+[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                                                                                                        docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (5/5) FINISHED                                                                                                               docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                     0.0s
+[0m[34m => => transferring dockerfile: 99B                                                                                                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-service:alpine                                                                      0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                        0.0s
+[0m[34m => => transferring context: 2B                                                                                                                          0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine                                                                                 0.0s
+[0m[34m => exporting to image                                                                                                                                   0.0s
+[0m[34m => => exporting layers                                                                                                                                  0.0s
+[0m[34m => => writing image sha256:e10a04f0292d811eb02da7d6526d1e215c8b8e62aa36cc69177ca4d072cee933                                                             0.0s
+[0m[34m => => naming to docker.io/library/webserver                                                                                                             0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/default/default/t6lqrjy2exjja1yj0cvmnnwsr\docker-desktop://dashboard/build/default/default/t6lqrjy2exjja1yj0cvmnnwsr]8;;\
+[1m
+What's Next?
+[0m  View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview[0m
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker run webserver
+[?2004l[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^Z
+[1]+  Stopped                 docker run webserver
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ docker run webserverbuild -t webserver .[12Pnano Dockerfile[6Ppoweroff ls[Kpoweroff nano Dockerfiledocker build -t webserver .[7Prun webserver[Kdocker run webserverbuild -t webserver .[7Prun webserver[Kscript -a ex1_8.txt -c ''n'a'n'o' 'D'O'c'[1P'[1P'o'c'k'e'r'f'i'l'e' '&'&' 'd'o'c'k'e'r' 'b'u'i'l'd' '-'t' 'w'e'b's'e'r'v'e'r'.'[1P' ';'[1P'.' '[1P' '[1P' '&'&' 'd'o'c'k'e'r' 'r'u'n' 'e'[1P'w'e'b's'e'r'v'e'r'
+[?2004lScript started, output log file is 'ex1_8.txt'.
+[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;74H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                              Dockerfile                                                                        [1;157H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;88H(B[0;7m*[34d(B[m[K[1;157H[2dFROM devopsdockeruh/simple-web-service:alpine[4dCMD ["servScript started on 2024-05-28 11:50:36+05:45 [COMMAND="nano Dockerfile && docker build -t webserver . && docker run webserver" TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="158" LINES="36"]
+[?2004h[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;74H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                              Dockerfile                                                                        [1;157H(B[m[35d(B[0;7m^G(B[m Help[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[35;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[36;120H(B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;88H(B[0;7m*[34d(B[m[K[1;157H[2dFROM devopsdockeruh/simple-web-service:alpine[4dCMD ["server"][?12l[?25h[?25l[35;18H[22X[35;40H(B[0;7mM-D(B[m DOS Format    [35;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[36;18H[22X[36;40H(B[0;7mM-M(B[m Mac Format      [36;69H          (B[0;7mM-P(B[m Prepend[21X[36;118H(B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: Dockerfile                                                                                                                                [34;31H(B[m[?12l[?25h[?25l[34;72H[1K (B[0;7m[ Writing... ](B[m[K[1;88H(B[0;7m [157G(B[m[34;71H(B[0;7m[ Wrote 3 lines ](B[m[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[118G  (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify       (B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[118G  (B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[?12l[?25h[4;15H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                                                                                                        docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (5/5) FINISHED                                                                                                               docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                     0.0s
+[0m[34m => => transferring dockerfile: 99B                                                                                                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-service:alpine                                                                      0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                        0.0s
+[0m[34m => => transferring context: 2B                                                                                                                          0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine                                                                                 0.0s
+[0m[34m => exporting to image                                                                                                                                   0.0s
+[er"][?12l[?25h[?25l[35;18H[22X[35;40H(B[0;7mM-D(B[m DOS Format    [35;69H          (B[0;7mM-A(B[m Append        [103G        [118G(B[0;7mM-B(B[m Backup File[K[36;2H(B[0;7mC(B[m Cancel[36;18H[22X[36;40H(B[0;7mM-M(B[m Mac Format      [36;69H          (B[0;7mM-P(B[m Prepend[21X[36;118H(B[0;7m^T(B[m Browse[K[34d(B[0;7mFile Name to Write: Dockerfile                                                                                                                                [34;31H(B[m[?12l[?25h[?25l[34;72H[1K (B[0;7m[ Writing... ](B[m[K[1;88H(B[0;7m [157G(B[m[34;71H(B[0;7m[ Wrote 3 lines ](B[m[35;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[35;69H(B[0;7m^T(B[m Execute       (B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[118G  (B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [36;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[36;69H(B[0;7m^J(B[m Justify       (B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[118G  (B[0;7mM-6(B[m Copy[36;137H(B[0;7m^Q(B[m Where Was[?12l[?25h[4;15H[?25l[34d[J[36d[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>[?2004l[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                                                                                                        docker:default
+[?25h[1A[0G[?25l[+] Building 0.1s (5/5) FINISHED                                                                                                               docker:default
+[34m => [internal] load build definition from Dockerfile                                                                                                     0.0s
+[0m[34m => => transferring dockerfile: 99B                                                                                                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/devopsdockeruh/simple-web-service:alpine                                                                      0.0s
+[0m[34m => [internal] load .dockerignore                                                                                                                        0.0s
+[0m[34m => => transferring context: 2B                                                                                                                          0.0s
+[0m[34m => CACHED [1/1] FROM docker.io/devopsdockeruh/simple-web-service:alpine                                                                                 0.0s
+[0m[34m => exporting to image                                                                                                                                   0.0s
+[0m[34m => => exporting layers                                                                                                                                  0.0s
+[0m[34m => => writing image sha256:e10a04f0292d811eb02da7d6526d1e215c8b8e62aa36cc69177ca4d072cee933                                                             0.0s
+[0m[34m => => naming to docker.io/library/webserver                                                                                                             0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj\docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj]8;;\
+[1m
+What's Next?
+[0m  View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview[0m
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] 0m[34m => => exporting layers                                                                                                                                  0.0s
+[0m[34m => => writing image sha256:e10a04f0292d811eb02da7d6526d1e215c8b8e62aa36cc69177ca4d072cee933                                                             0.0s
+[0m[34m => => naming to docker.io/library/webserver                                                                                                             0.0s
+[0m[?25h
+View build details: ]8;;docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj\docker-desktop://dashboard/build/default/default/kaju67wqbirbmh3lem307scyj]8;;\
+[1m
+What's Next?
+[0m  View a summary of image vulnerabilities and recommendations → [36mdocker scout quickview[0m
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+^C
+Script done on 2024-05-28 11:50:47+05:45 [COMMAND_EXIT_CODE="2"]
+Listening and serving HTTP on :8080
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.8[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.8[00m$ cd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.9
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ cd ex1.9[3P..script -a ex1_8.txt -c 'nano Dockerfile && docker build -t webserver . && docker run webserver'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker run webserver[Kscript -a ex1_8.txt -c 'nano Dockerfile && docker build -t webserver . && docker run webserver'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K'[K'[K'[K[2P''[K[1P''[K'[K[1P'[1P'[1P'[1P'[1P'[K[C'd'o'c'k'e'r' 'r'u'n' '-'v' '"'"'[C$"'("')"'p)"'w)"'d)"'[C/"'e"'x"'1"'."'9"':"'/"'a"'p"'p"'[C 'd'e'v'e'o'p's'd'o'c'k'e'r'u'h'/'s'i'm'p'l'e'-'w'e'b's'e'v'[1P'r'c'i'[1P'[1P'v'i'c'e':'a';'[1P'l'p'i'n'e'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Unable to find image 'deveopsdockeruh/simple-webservice:alpine' locally
+docker: Error response from daemon: pull access denied for deveopsdockeruh/simple-webservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+Script done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" deveopsdockeruh/simple-webservice:alpine'[C[C[C[C[C[C[1Popsdockeruh/simple-webservice:alpine'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Unable to find image 'devopsdockeruh/simple-webservice:alpine' locally
+docker: Error response from daemon: pull access denied for devopsdockeruh/simple-webservice, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
+Script done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" devopsdockeruh/simple-webservice:alpine'-service:alpine'
+[?2004lScript started, output log file is 'ex1_9.txt'.
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^ZWrote text to /usr/src/app/text.log
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.9[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.9[00m$ cd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.10
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ cd ex1.10[4P..script -a ex1_9.txt -c 'docker run -v "$(pwd)/ex1.9:/app" devopsdockeruh/simple-web-service:alpine''[K'[K'[K'[K'[K'[K'[K'[K'[K'[K'[Kr'u'n' '-'p' 'e'[1P'w'e'n'[1P'b'-'s'e'r'v'e'r'[1P[1@1[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C web-server'8 web-server'0 web-server'8 web-server'0 web-server': web-server'8 web-server'0 web-server'8 web-server'0 web-server'
+[?2004lScript started, output log file is 'ex1_10.txt'.
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /*path                    --> server.Start.func1 (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/05/28 - 06:13:34 | 200 |     101.368µs |      172.17.0.1 | GET      "/"
+[GIN] 2024/05/28 - 06:13:34 | 200 |     117.333µs |      172.17.0.1 | GET      "/favicon.ico"
+^CScript done.
+[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ script -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.10[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.10[00m$ cd ex1.10[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1[00m$ cd ex1.11
+[?2004l[?2004h]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [K]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ cd ex1.11[4P..script -a ex1_10.txt -c 'docker run -p 8080:8080 web-server'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt -c 'docker run -p[1P[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.txt -c 'docker run -[1@p[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt -c 'docker run -p[1P[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txt -c 'docker run -[1@p[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K'[K'[K[C[C[C'[K[2P'[A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr'u'n' [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'[1P'b'u'i' [A]0;godd@ngin: ~/Music/dockermooc/part1/ex1.11[01;32mgodd@ngin[00m:[01;34m~/Music/dockermooc/part1/ex1.11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl'd' '-'t' 'j'a'v'a'a'p'p' '.' '&'&' 'd'o'c'k'e'r' 'r'u'n' '-'p' '8'0'8'0':'8'0'8'0' 'j'a'c'a'[1P'[1P'v'a'p'p'[Capp'
+[?2004lScript started, output log file is 'ex1_11.txt'.
+[1A[1B[0G[?25l[+] Building 0.0s (0/0)  docker:default
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                         docker:default
+[?25h[1A[0G[?25l[+] Building 0.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.3s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.5s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.6s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.8s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.8s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  0.9s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.1s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.1s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (1/2)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.2s
+[?25h[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (1/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.2s
+ => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.4s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.4s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.5s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.5s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.7s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.7s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.8s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  1.8s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.0s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.0s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.1s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.1s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.3s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.3s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.4s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.4s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.6s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.6s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.7s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.7s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.9s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  2.9s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.0s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.0s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.2s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.2s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.3s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.3s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.5s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.5s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.6s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.6s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.8s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.8s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.9s (2/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m => [internal] load metadata for docker.io/library/amazoncorretto:latest  3.9s
+[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.1s (3/3)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.2s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.3s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.5s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.5s (8/9)                                         docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m => [4/4] RUN ./mvnw package                                              0.4s
+[2m => => # /bin/sh: ./mvnw: No such file or directory                           
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.6s (9/9) FINISHED                                docker:default
+[34m => [internal] load build definition from Dockerfile                      0.0s
+[0m[34m => => transferring dockerfile: 196B                                      0.0s
+[0m[34m => [internal] load metadata for docker.io/library/amazoncorretto:latest  4.0s
+[0m[34m => [auth] library/amazoncorretto:pull token for registry-1.docker.io     0.0s
+[0m[34m => [internal] load .dockerignore                                         0.0s
+[0m[34m => => transferring context: 2B                                           0.0s
+[0m[34m => [1/4] FROM docker.io/library/amazoncorretto:latest@sha256:a13d52e4f1  0.0s
+[0m[34m => [internal] load build context                                         0.0s
+[0m[34m => => transferring context: 201.66kB                                     0.0s
+[0m[34m => CACHED [2/4] WORKDIR /usr/src/app                                     0.0s
+[0m[34m => [3/4] COPY . .                                                        0.1s
+[0m[31m => ERROR [4/4] RUN ./mvnw package                                        0.4s
+[0m                                                                               
+[1A[0G[?25h------
+ > [4/4] RUN ./mvnw package:
+0.374 /bin/sh: ./mvnw: No such file or directory
+------
+Dockerfile:9
+--------------------
+   7 |     COPY . .
+   8 |     
+   9 | >>> RUN ./mvnw package
+  10 |     
+  11 |     
+--------------------
+ERROR: failed to solve: process "/bin/sh -c ./mvnw package" did not complete successfully: exit code: 127
+
+View build details: ]8;;docker-desktop://dashboard/build/default/default/tw02bdtargdryj2b5fvts
